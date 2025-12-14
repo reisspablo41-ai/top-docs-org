@@ -1,0 +1,55 @@
+<svg width="800" height="500" viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f3d3e7" />
+      <stop offset="100%" stop-color="#edb4d8" />
+    </linearGradient>
+    <style>
+      .table-label { font-family: 'Arial', sans-serif; font-size: 18px; fill: #383838; }
+      .table-value { font-family: 'Arial', sans-serif; font-size: 18px; fill: #1f1f1f; font-weight: bold; }
+    </style>
+  </defs>
+  <rect x="0" y="0" width="800" height="500" rx="28" fill="url(#bg2)" stroke="#d98dba" stroke-width="4" />
+  <rect x="30" y="40" width="740" height="360" rx="18" fill="#fff" stroke="#e0bfd3" stroke-width="2" />
+  <text x="50" y="80" class="table-label">13.</text>
+  <line x1="80" y1="90" x2="760" y2="90" stroke="#e1d1dc" stroke-width="2" />
+  <text x="50" y="125" class="table-label">14.</text>
+  <line x1="80" y1="135" x2="760" y2="135" stroke="#e1d1dc" stroke-width="2" />
+  <g transform="translate(50,150)">
+    <text class="table-label" x="0" y="0">8.</text>
+    <text class="table-label" x="80" y="0">AM</text>
+    <text class="table-value" x="260" y="0">02.04.95</text>
+    <text class="table-value" x="420" y="0">02.04.95</text>
+    <text class="table-value" x="600" y="0">101.78. &lt;75000</text>
+  </g>
+  <g transform="translate(50,190)">
+    <text class="table-label" x="0" y="0">9.</text>
+    <text class="table-label" x="80" y="0">A1</text>
+    <text class="table-value" x="260" y="0">15.10.91</text>
+    <text class="table-value" x="420" y="0">10.10.96</text>
+    <text class="table-value" x="600" y="0">101.78. &lt;75000</text>
+  </g>
+  <g transform="translate(50,230)">
+    <text class="table-label" x="0" y="0">10.</text>
+    <text class="table-label" x="80" y="0">A2</text>
+    <text class="table-value" x="260" y="0">01.12.02</text>
+    <text class="table-value" x="420" y="0">01.12.12</text>
+    <text class="table-value" x="600" y="0">101.78. &lt;75000</text>
+  </g>
+  <g transform="translate(50,270)">
+    <text class="table-label" x="0" y="0">11.</text>
+    <text class="table-label" x="80" y="0">B</text>
+    <text class="table-value" x="260" y="0">02.04.95</text>
+    <text class="table-value" x="420" y="0">02.04.95</text>
+    <text class="table-value" x="600" y="0">101.78. &lt;75000</text>
+  </g>
+  <g transform="translate(50,310)">
+    <text class="table-label" x="0" y="0">12.</text>
+    <text class="table-label" x="80" y="0">C1</text>
+    <text class="table-value" x="260" y="0">04.10.96</text>
+    <text class="table-value" x="420" y="0">04.10.12</text>
+    <text class="table-value" x="600" y="0">101.78. &lt;75000</text>
+  </g>
+  <text x="50" y="420" class="table-label">12. 70.23232323F 70.55555555RA 02.01.171.1 171.44 012345678123456789012345</text>
+  <text x="50" y="450" class="table-label">Documento ilustrativo sin validez</text>
+</svg>

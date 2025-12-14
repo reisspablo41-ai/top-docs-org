@@ -1,0 +1,39 @@
+<svg width="800" height="500" viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f8d6e6" />
+      <stop offset="100%" stop-color="#f2bcd6" />
+    </linearGradient>
+    <linearGradient id="band" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#123996" />
+      <stop offset="100%" stop-color="#1d58c9" />
+    </linearGradient>
+    <style>
+      .label { font-family: 'Arial', sans-serif; font-size: 20px; fill: #4a4a4a; }
+      .value { font-family: 'Arial', sans-serif; font-size: 22px; fill: #1f1f1f; font-weight: bold; }
+      .small { font-size: 16px; fill: #1f1f1f; }
+    </style>
+  </defs>
+  <rect x="0" y="0" width="800" height="500" rx="28" fill="url(#bg)" stroke="#d98dba" stroke-width="4" />
+  <rect x="30" y="30" width="160" height="280" rx="12" fill="#ffffff" stroke="#e0bfd3" stroke-width="2" />
+  <circle cx="110" cy="150" r="65" fill="#dedde6" stroke="#c4c2cf" stroke-width="4" />
+  <text x="110" y="155" text-anchor="middle" font-family="Arial" font-size="32" fill="#707080">ID</text>
+  <rect x="30" y="330" width="280" height="120" rx="10" fill="#ffffff" stroke="#e0bfd3" stroke-width="2" />
+  <text x="50" y="360" class="label">Firma</text>
+  <path d="M80 400 C130 370 150 430 220 390" stroke="#8a4f8c" fill="none" stroke-width="4" />
+  <rect x="330" y="30" width="440" height="80" rx="12" fill="url(#band)" />
+  <text x="350" y="80" font-family="Arial" font-size="42" fill="#ffffff" font-weight="bold">PERMISO DE CONDUCCIÓN</text>
+  <text x="350" y="115" font-family="Arial" font-size="24" fill="#ffffff">REINO DE ESPAÑA</text>
+  <text x="330" y="170" class="label">1. APELLIDO1 APELLIDO2</text>
+  <text x="330" y="205" class="label">2. NOMBRE</text>
+  <text x="330" y="240" class="label">3. 01-01-1980   ESPAÑA</text>
+  <text x="330" y="275" class="label">4a. 02-11-2004   4c. 99-00</text>
+  <text x="330" y="310" class="label">4b. 02-11-2014</text>
+  <text x="330" y="345" class="label">5. 01234567-X</text>
+  <text x="330" y="380" class="label">9. AM A1 A2 B B1 BE C1 C D1 D</text>
+  <text x="330" y="430" class="label">MUESTRA</text>
+  <text x="330" y="460" class="small">Documento ilustrativo sin validez</text>
+  <circle cx="120" cy="70" r="40" fill="#1b4bb3" />
+  <text x="120" y="78" text-anchor="middle" font-family="Arial" font-size="36" fill="#ffffff">E</text>
+  <circle cx="120" cy="70" r="44" fill="none" stroke="#ffcc33" stroke-width="6" stroke-dasharray="4 14" />
+</svg>

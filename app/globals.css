@@ -1,0 +1,104 @@
+@import "tailwindcss";
+
+/* Light Theme Color Scheme */
+:root {
+  /* Base colors */
+  --background: #ffffff;
+  --foreground: #171717;
+  
+  /* Primary colors */
+  --primary: #0d9488; /* teal-600 */
+  --primary-foreground: #ffffff;
+  --primary-hover: #0f766e; /* teal-700 */
+  --primary-light: #f0fdfa; /* teal-50 */
+  --primary-dark-hover: #14b8a6; /* teal-500 */
+  
+  /* Card colors */
+  --card-background: #ffffff;
+  --card-border: #e4e4e7; /* zinc-200 */
+  --card-text: #18181b; /* zinc-900 */
+  --card-content-text: #27272a; /* zinc-800 */
+  
+  /* Header colors */
+  --header-background: #ffffff;
+  --header-border: #e4e4e7; /* zinc-200 */
+  --header-text: #18181b; /* zinc-900 */
+  --header-link: #27272a; /* zinc-800 */
+  
+  /* Footer colors */
+  --footer-background: #ffffff;
+  --footer-border: #e4e4e7; /* zinc-200 */
+  --footer-text: #52525b; /* zinc-600 */
+  
+  /* Input/Form colors */
+  --input-background: #ffffff;
+  --input-border: #d4d4d8; /* zinc-300 */
+  --input-text: #18181b; /* zinc-900 */
+  --input-placeholder: #71717a; /* zinc-500 */
+  
+  /* Border colors */
+  --border-light: #e4e4e7; /* zinc-200 */
+  --border-medium: #d4d4d8; /* zinc-300 */
+  
+  /* Text colors */
+  --text-primary: #18181b; /* zinc-900 */
+  --text-secondary: #27272a; /* zinc-800 */
+  --text-tertiary: #52525b; /* zinc-600 */
+  --text-muted: #71717a; /* zinc-500 */
+}
+
+@theme inline {
+  /* Base colors */
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  
+  /* Primary colors */
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-primary-hover: var(--primary-hover);
+  --color-primary-light: var(--primary-light);
+  --color-primary-dark-hover: var(--primary-dark-hover);
+  
+  /* Card colors */
+  --color-card-background: var(--card-background);
+  --color-card-border: var(--card-border);
+  --color-card-text: var(--card-text);
+  --color-card-content-text: var(--card-content-text);
+  
+  /* Header colors */
+  --color-header-background: var(--header-background);
+  --color-header-border: var(--header-border);
+  --color-header-text: var(--header-text);
+  --color-header-link: var(--header-link);
+  
+  /* Footer colors */
+  --color-footer-background: var(--footer-background);
+  --color-footer-border: var(--footer-border);
+  --color-footer-text: var(--footer-text);
+  
+  /* Input/Form colors */
+  --color-input-background: var(--input-background);
+  --color-input-border: var(--input-border);
+  --color-input-text: var(--input-text);
+  --color-input-placeholder: var(--input-placeholder);
+  
+  /* Border colors */
+  --color-border-light: var(--border-light);
+  --color-border-medium: var(--border-medium);
+  
+  /* Text colors */
+  --color-text-primary: var(--text-primary);
+  --color-text-secondary: var(--text-secondary);
+  --color-text-tertiary: var(--text-tertiary);
+  --color-text-muted: var(--text-muted);
+  
+  /* Fonts */
+  --font-sans: var(--font-inter);
+  --font-mono: var(--font-geist-mono);
+}
+
+body {
+  background: #ffffff;
+  color: var(--foreground);
+  font-family: var(--font-sans);
+}
