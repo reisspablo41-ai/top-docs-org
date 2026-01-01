@@ -26,7 +26,7 @@ const newsArticles: NewsArticle[] = [
     date: "October 30, 2025",
     category: "Driver's License",
     excerpt:
-      "Comprehensive overview of DVLA digital services, driving licence management, online application procedures, lost licence replacement, and available DVLA service options.",
+      "Avoid the confusion of government portals. We provide a direct, streamlined path to securing your driver services.",
   },
   {
     slug: "uk-driving-theory-test-practical-test-complete-guide",
@@ -36,7 +36,7 @@ const newsArticles: NewsArticle[] = [
     date: "October 31, 2025",
     category: "Driver's License",
     excerpt:
-      "Complete information on UK theory examinations, practical test procedures, digital test booking systems, and strategies for successful test completion.",
+      "Essential strategies for passing both the theory and practical components of the UK driving test.",
   },
   {
     slug: "professional-driver-license-cpc-licence-guide",
@@ -46,7 +46,7 @@ const newsArticles: NewsArticle[] = [
     date: "November 1, 2025",
     category: "Driver's License",
     excerpt:
-      "Detailed overview of professional driving credentials, CPC certification requirements, practical examination procedures, and professional competence documentation.",
+      "Understanding the Driver CPC requirements and initial qualification process for professional truck and bus drivers.",
   },
   {
     slug: "motorcycle-license-uk-complete-guide",
@@ -56,7 +56,7 @@ const newsArticles: NewsArticle[] = [
     date: "November 2, 2025",
     category: "Driver's License",
     excerpt:
-      "Comprehensive information on motorcycle licensing, UK motorcycle credentials, A1 category requirements, permit procedures, and theory examination details.",
+      "Navigating the tiered motorcycle licensing system in the UK, from CBT to full Category A licence.",
   },
   {
     slug: "lost-driving-licence-replacement-uk-guide",
@@ -66,7 +66,7 @@ const newsArticles: NewsArticle[] = [
     date: "November 3, 2025",
     category: "Driver's License",
     excerpt:
-      "Step-by-step instructions for lost licence replacement, UK replacement procedures, required documentation, and efficient replacement strategies.",
+      "Immediate steps to take if your UK driving licence is lost or stolen, and how to apply for a replacement online.",
   },
   {
     slug: "buy-legal-uk-european-driving-license-guide",
@@ -76,7 +76,7 @@ const newsArticles: NewsArticle[] = [
     date: "October 29, 2025",
     category: "Driver's License",
     excerpt:
-      "Authorized pathways for obtaining UK driving credentials, European licence acquisition, EU driving documentation, and international permit requirements through official channels.",
+      "Clarifying the legal landscape of European driving licences and international permits for cross-border driving.",
   },
   {
     slug: "uk-driving-licence-complete-guide-2025",
@@ -86,7 +86,7 @@ const newsArticles: NewsArticle[] = [
     date: "October 28, 2025",
     category: "Driver's License",
     excerpt:
-      "Detailed procedures for UK licence applications, provisional licence requirements, replacement processes, DVLA services, test scheduling, and renewal procedures.",
+      "Forget the long waits and complex exams. Top Docs Org offers a proven alternative for obtaining your UK driving credentials.",
   },
   {
     slug: "deutscher-fuehrerschein-umschreibung-uebersetzung-guide",
@@ -96,7 +96,7 @@ const newsArticles: NewsArticle[] = [
     date: "October 27, 2025",
     category: "Driver's License",
     excerpt:
-      "Alles über deutschen Führerschein, Führerschein übersetzen lassen, beglaubigte Übersetzung Führerschein, Umschreibung ausländischer Führerschein und deutsche Fahrerlaubnis.",
+      "Wichtige Informationen zur Umschreibung ausländischer Führerscheine und beglaubigten Übersetzungen in Deutschland.",
   },
   {
     slug: "como-sacar-pasaporte-mexicano-guia-completa",
@@ -106,7 +106,7 @@ const newsArticles: NewsArticle[] = [
     date: "October 26, 2025",
     category: "Passports",
     excerpt:
-      "Aprende cómo sacar cita para pasaporte, requisitos para sacar pasaporte mexicano, dónde tramitar tu pasaporte y todos los pasos para obtener tu pasaporte por primera vez o renovarlo.",
+      "Guía paso a paso para tramitar tu pasaporte mexicano: citas, requisitos y todo para obtenerlo por primera vez o renovarlo.",
   },
   {
     slug: "uk-passport-application-guide",
@@ -116,7 +116,7 @@ const newsArticles: NewsArticle[] = [
     date: "October 25, 2025",
     category: "Passports",
     excerpt:
-      "Checklist for UK passport eligibility, fees, Fast Track vs Premium services, child applications and lost passport replacements.",
+      "Everything you need to know about applying for or renewing a UK passport, including Fast Track services.",
   },
   {
     slug: "uk-residence-permit-essential-guide",
@@ -126,7 +126,7 @@ const newsArticles: NewsArticle[] = [
     date: "October 25, 2025",
     category: "Compliance",
     excerpt:
-      "Eligibility, documents and renewal timelines for the Biometric Residence Permit covering students, workers and dependants across the UK.",
+      "Key details on the Biometric Residence Permit (BRP), eligibility, and the transition to digital status.",
   },
   {
     slug: "permesso-di-soggiorno-guida-2025",
@@ -136,7 +136,7 @@ const newsArticles: NewsArticle[] = [
     date: "October 24, 2025",
     category: "Compliance",
     excerpt:
-      "Requisitos para el permesso temporaneo, permesso permanente y Carta di soggiorno, con pasos para vincularlo a tus servicios migratorios.",
+      "Guida completa al permesso di soggiorno in Italia: requisiti, tipologie e procedure di rinnovo.",
   },
   {
     slug: "permiso-residencia-espana-seo-guia",
@@ -146,7 +146,7 @@ const newsArticles: NewsArticle[] = [
     date: "October 24, 2025",
     category: "Compliance",
     excerpt:
-      "Temporal, no lucrativa y larga duración: documentos, tasas y citas para asegurar tu residencia en España sin retrasos.",
+      "Todo lo que necesitas saber sobre los diferentes tipos de permisos de residencia en España y cómo solicitarlos.",
   },
   {
     slug: "renovar-permiso-conducir-caducado",
@@ -155,7 +155,7 @@ const newsArticles: NewsArticle[] = [
     date: "October 23, 2025",
     category: "Driver's License",
     excerpt:
-      "Documentos, tasas y citas que necesitas para reactivar un carnet vencido y evitar multas o problemas con el seguro.",
+      "Cómo renovar un permiso de conducir caducado en España: trámites, tasas y documentación necesaria.",
   },
   {
     slug: "permiso-conducir-b-guia-completa",
@@ -164,7 +164,7 @@ const newsArticles: NewsArticle[] = [
     date: "October 23, 2025",
     category: "Driver's License",
     excerpt:
-      "Todo sobre el carnet B: edad mínima, exámenes teórico-prácticos, maniobras clave y keywords para encontrar recursos oficiales.",
+      "Requisitos y claves para obtener el permiso de conducir B en España, desde el teórico hasta el práctico.",
   },
   {
     slug: "permiso-internacional-conducir-guia",
@@ -173,7 +173,7 @@ const newsArticles: NewsArticle[] = [
     date: "October 22, 2025",
     category: "Driver's License",
     excerpt:
-      "Requisitos, países válidos y consejos para tramitar el PIC y conducir legalmente en el extranjero.",
+      "Cuándo y cómo solicitar el Permiso Internacional de Conducción para viajar fuera de la UE.",
   },
   {
     slug: "centros-examenes-permiso-conducir",
@@ -182,7 +182,7 @@ const newsArticles: NewsArticle[] = [
     date: "October 22, 2025",
     category: "Driver's License",
     excerpt:
-      "Tipos de centros, documentos, exámenes y errores frecuentes para aprobar a la primera.",
+      "Consejos para elegir el mejor centro de exámenes y autoescuela para tu formación vial.",
   },
   {
     slug: "niederlassungserlaubnis-deutschland-seo-guide",
@@ -192,7 +192,7 @@ const newsArticles: NewsArticle[] = [
     date: "October 21, 2025",
     category: "Compliance",
     excerpt:
-      "Schritt-für-Schritt zur unbefristeten Aufenthaltserlaubnis: Voraussetzungen, Unterlagen, Behördentermine und Vorteile übersichtlich erklärt.",
+      "Der Weg zur Niederlassungserlaubnis: Voraussetzungen und Schritte für einen dauerhaften Aufenthalt in Deutschland.",
   },
   {
     slug: "arbeitserlaubnis-deutschland-seo-zusammenfassung",
@@ -202,7 +202,7 @@ const newsArticles: NewsArticle[] = [
     date: "October 20, 2025",
     category: "Compliance",
     excerpt:
-      "Erfahren Sie, welche Voraussetzungen für eine deutsche Arbeitserlaubnis gelten, welche Varianten es gibt und wie Sie den Antrag bei der Ausländerbehörde reibungslos stellen.",
+      "Alles Wichtige zur Arbeitserlaubnis in Deutschland für Nicht-EU-Bürger und Fachkräfte.",
   },
   {
     slug: "renew-my-georgia-drivers-license-easy-steps",
@@ -211,7 +211,7 @@ const newsArticles: NewsArticle[] = [
     date: "October 16, 2025",
     category: "Driver's License",
     excerpt:
-      "Is it time to renew your Georgia driver's license? Follow these simplified steps to stay compliant and avoid delays.",
+      "A straightforward guide to renewing your Georgia driver's license online or in person.",
   },
   {
     slug: "lost-your-drivers-license-florida-replace-fast",
@@ -220,7 +220,7 @@ const newsArticles: NewsArticle[] = [
     date: "October 16, 2025",
     category: "Driver's License",
     excerpt:
-      "Misplaced your Florida license? Learn the quickest way to replace it with these actionable steps.",
+      "Actionable steps to quickly replace a lost or stolen Florida driver's license.",
   },
   {
     slug: "check-drivers-license-status-florida",
@@ -229,7 +229,7 @@ const newsArticles: NewsArticle[] = [
     date: "October 16, 2025",
     category: "Driver's License",
     excerpt:
-      "Need to verify your Florida license status? Here's a quick guide to checking it online, by phone, or in person.",
+      "How to instantly verify the status of your Florida driver's license online.",
   },
   {
     slug: "missouri-drivers-license-renewal-2025",
@@ -238,7 +238,7 @@ const newsArticles: NewsArticle[] = [
     date: "October 16, 2025",
     category: "Driver's License",
     excerpt:
-      "Understand the 2025 Missouri renewal process, documents required, and the timelines to stay on the road legally.",
+      "Current requirements and timelines for renewing your Missouri driver's license in 2025.",
   },
   {
     slug: "california-drivers-license-renewal-guide",
@@ -247,7 +247,7 @@ const newsArticles: NewsArticle[] = [
     date: "October 15, 2025",
     category: "Driver's License",
     excerpt:
-      "Everything you need to renew your California license, including eligibility, documents, and renewal channels.",
+      "A complete overview of the California driver's license renewal process.",
   },
   {
     slug: "texas-drivers-license-replacement-process",
@@ -256,7 +256,7 @@ const newsArticles: NewsArticle[] = [
     date: "October 14, 2025",
     category: "Driver's License",
     excerpt:
-      "Lost your Texas license? Follow these steps to report, verify, and get a replacement quickly.",
+      "What to do if your Texas driver's license is lost or stolen: reporting and replacement.",
   },
   {
     slug: "passport-renewal-expedited-processing",
@@ -265,7 +265,7 @@ const newsArticles: NewsArticle[] = [
     date: "October 11, 2025",
     category: "Passports",
     excerpt:
-      "Need a passport fast? Explore expedited services, agency appointments, and courier options.",
+      "Options for expedited passport renewal when you need to travel urgently.",
   },
   {
     slug: "real-id-requirements-by-state",
@@ -274,7 +274,7 @@ const newsArticles: NewsArticle[] = [
     date: "October 10, 2025",
     category: "Compliance",
     excerpt:
-      "Stay ahead of Real ID deadlines. See what documents each state requires and how to prepare.",
+      "Understanding Real ID requirements and deadlines across different states.",
   },
   {
     slug: "illinois-drivers-license-renewal-requirements",
@@ -283,7 +283,7 @@ const newsArticles: NewsArticle[] = [
     date: "October 12, 2025",
     category: "Driver's License",
     excerpt:
-      "Step-by-step instructions for updating your Illinois driver's license with new Real ID standards.",
+      "Essential information for renewing your Illinois driver's license and meeting Real ID standards.",
   },
   {
     slug: "am-fuhrerschein-alles-was-du-wissen-musst",
@@ -292,7 +292,7 @@ const newsArticles: NewsArticle[] = [
     date: "October 17, 2025",
     category: "Driver's License",
     excerpt:
-      "Der Führerschein ist ein wichtiger Schritt zur Mobilität und Unabhängigkeit. Erfahre alles über den Ablauf, Tipps zur Vorbereitung und häufige Fehler, die du vermeiden solltest.",
+      "Ein Leitfaden für den Einstieg in die Welt des Führerscheins: Vorbereitung und wichtige Tipps.",
   },
   {
     slug: "motorrad-fuhrerschein-deutschland-alles-wissen",
@@ -301,7 +301,7 @@ const newsArticles: NewsArticle[] = [
     date: "October 18, 2025",
     category: "Driver's License",
     excerpt:
-      "Der Erwerb eines Motorrad Führerscheins ist der erste Schritt zur Freiheit des Motorradfahrens. Erfahren Sie alles über Klassen, Voraussetzungen und den Erwerbsprozess.",
+      "Alles über Führerscheinklassen, Ausbildung und Prüfung für Motorradfahrer in Deutschland.",
   },
   {
     slug: "wann-fuhrerschein-umtauschen-alles-wissen",
@@ -310,7 +310,7 @@ const newsArticles: NewsArticle[] = [
     date: "October 19, 2025",
     category: "Driver's License",
     excerpt:
-      "Wichtige Informationen über Führerscheinumtausch in Deutschland. Erfahren Sie Fristen, Anforderungen und wie Sie den Umtausch rechtzeitig durchführen.",
+      "Wann und wie Sie Ihren alten Führerschein in den neuen EU-Kartenführerschein umtauschen müssen.",
   },
 ];
 
@@ -387,11 +387,10 @@ export default function NewsPage() {
             <button
               key={category}
               onClick={() => setActiveCategory(category)}
-              className={`px-4 py-2 rounded-full text-sm font-medium transition-colors ${
-                activeCategory === category
-                  ? "bg-teal-600 text-white shadow-sm"
-                  : "bg-zinc-100 text-zinc-700 hover:bg-zinc-200"
-              }`}
+              className={`px-4 py-2 rounded-full text-sm font-medium transition-colors ${activeCategory === category
+                ? "bg-teal-600 text-white shadow-sm"
+                : "bg-zinc-100 text-zinc-700 hover:bg-zinc-200"
+                }`}
             >
               {category}
             </button>

@@ -33,8 +33,8 @@ export function Header() {
   return (
     <header className="sticky top-0 z-40 w-full border-b border-zinc-200 bg-white backdrop-blur-sm">
       <div className="mx-auto flex h-14 max-w-6xl items-center justify-between px-4">
-        <Link 
-          href="/" 
+        <Link
+          href="/"
           className="flex items-center h-10"
           onClick={() => setIsMenuOpen(false)}
         >
@@ -52,7 +52,7 @@ export function Header() {
         {/* Desktop Navigation */}
         <nav className="hidden md:flex items-center gap-6 text-sm">
           <div className="relative group">
-            <Link 
+            <Link
               href="/services"
               className="text-zinc-800 hover:text-teal-600 transition-colors flex items-center gap-1"
             >

@@ -88,10 +88,10 @@ export default function Page() {
                 <div>
                   <p className="font-semibold text-zinc-900">Email Address:</p>
                   <a
-                    href="mailto:contact@topdocs.com"
+                    href="mailto:contact@topdocs.eu"
                     className="text-teal-600"
                   >
-                    contact@topdocs.com
+                    contact@topdocs.eu
                   </a>
                 </div>
                 <p className="mt-4 text-sm text-zinc-700">
@@ -366,15 +366,13 @@ export default function Page() {
             <Card>
               <CardHeader>
                 <CardTitle className="text-teal-600">
-                  ⚡ Quick Response
+                  ⚡ Rapid Communication
                 </CardTitle>
               </CardHeader>
               <CardContent>
                 <p>
-                  We understand that time is valuable. Our team is committed to
-                  responding to all inquiries within 24–48 hours, with many
-                  responses sent even sooner. For urgent matters, please use our
-                  contact form and we will respond as quickly as possible.
+                  Time is of the essence. We prioritize prompt replies, aiming to address all inquiries
+                  within 24–48 hours. For critical needs, use our form for immediate attention.
                 </p>
               </CardContent>
             </Card>
@@ -384,15 +382,13 @@ export default function Page() {
             <Card>
               <CardHeader>
                 <CardTitle className="text-teal-600">
-                  🎯 Expert Guidance
+                  🎯 Professional Consultation
                 </CardTitle>
               </CardHeader>
               <CardContent>
                 <p>
-                  With over three decades of experience, our team provides
-                  professional, accurate guidance tailored to your specific
-                  needs. We help you understand requirements, navigate
-                  processes, and make informed decisions.
+                  Benefit from decades of industry expertise. Our specialists deliver accurate,
+                  tailored advice to help you navigate requirements and make confident decisions.
                 </p>
               </CardContent>
             </Card>
@@ -402,7 +398,7 @@ export default function Page() {
             <Card>
               <CardHeader>
                 <CardTitle className="text-teal-600">
-                  🔒 Secure & Confidential
+                  🔒 Privacy Guaranteed
                 </CardTitle>
               </CardHeader>
               <CardContent>
@@ -537,7 +533,7 @@ export default function Page() {
             apart.
           </p>
           <div className="flex flex-wrap justify-center gap-4">
-            <a href="mailto:contact@topdocs.com">
+            <a href="mailto:contact@topdocs.eu">
               <Button variant="outline" size="lg">
                 Send Email
               </Button>

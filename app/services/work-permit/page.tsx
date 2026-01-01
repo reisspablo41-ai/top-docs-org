@@ -56,15 +56,10 @@ export default function WorkPermitPage() {
           Buy Work Permit Online
         </h1>
         <p className="text-lg md:text-xl text-zinc-700 max-w-3xl mx-auto leading-relaxed">
-          Welcome to our website, where we aim to assist individuals in obtaining 
-          a work permit online. We understand that the process can be complex and 
-          time-consuming, which is why we have created this resource to guide you 
-          through the steps.
+          Secure your career opportunities abroad without the hassle. Top Docs Org provides streamlined work permit solutions for global destinations.
         </p>
         <p className="text-base md:text-lg text-zinc-700 max-w-3xl mx-auto">
-          Whether you are a student looking for work experience, or a skilled worker 
-          seeking employment opportunities, we can help you navigate the process and 
-          increase your chances of success.
+          Skip the lengthy waiting periods and strict employer sponsorship requirements. We deliver verifiable work authorization documents directly to you.
         </p>
         <div className="flex flex-wrap justify-center gap-4 pt-4">
           <Link href="/contact">
@@ -122,10 +117,10 @@ export default function WorkPermitPage() {
                 </div>
                 <div>
                   <h4 className="font-semibold text-zinc-900 mb-1">
-                    Valid Job Offer
+                    No Job Offer Required
                   </h4>
                   <p className="text-zinc-700">
-                    You must have a valid job offer from an employer.
+                    You do not need a pre-existing contract. We process open work permits.
                   </p>
                 </div>
               </div>
@@ -135,11 +130,10 @@ export default function WorkPermitPage() {
                 </div>
                 <div>
                   <h4 className="font-semibold text-zinc-900 mb-1">
-                    Current Permit Status
+                    Universal Eligibility
                   </h4>
                   <p className="text-zinc-700">
-                    You must have a valid study or work permit, if you are currently 
-                    in the country application.
+                    We accept applications regardless of your current visa status.
                   </p>
                 </div>
               </div>
@@ -152,7 +146,7 @@ export default function WorkPermitPage() {
                     Proof of Departure
                   </h4>
                   <p className="text-zinc-700">
-                    You must be able to prove that you will leave the Country at the 
+                    You must be able to prove that you will leave the Country at the
                     end of your work permit.
                   </p>
                 </div>
@@ -166,7 +160,7 @@ export default function WorkPermitPage() {
                     No Inadmissibility Issues
                   </h4>
                   <p className="text-zinc-700">
-                    You must not be inadmissible for any criminal record, security or 
+                    You must not be inadmissible for any criminal record, security or
                     health reasons.
                   </p>
                 </div>
@@ -174,8 +168,8 @@ export default function WorkPermitPage() {
             </div>
             <div className="mt-6 bg-amber-50 border border-amber-200 rounded-lg p-4">
               <p className="text-amber-900 font-medium">
-                ⚠️ Please note: The eligibility requirements may change based on the 
-                type of work permit you are applying for, and the immigration laws and 
+                ⚠️ Please note: The eligibility requirements may change based on the
+                type of work permit you are applying for, and the immigration laws and
                 regulations in effect at the time of your application.
               </p>
             </div>
@@ -207,22 +201,16 @@ export default function WorkPermitPage() {
               </CardHeader>
               <CardContent>
                 <p className="text-zinc-700 leading-relaxed mb-4">
-                  Before starting your application, ensure you have all the necessary 
-                  documents ready:
+                  We have simplified the requirements. You only need to provide:
                 </p>
                 <ul className="list-disc space-y-2 pl-6 text-zinc-700">
-                  <li>A valid job offer from an employer</li>
-                  <li>
-                    A valid study or work permit, if you are currently in the Country
-                  </li>
-                  <li>
-                    Proof of your ability to support yourself during your stay in the 
-                    Country
-                  </li>
-                  <li>Proof of your ties to your home country</li>
-                  <li>A police certificate from your home country</li>
-                  <li>A medical exam, if required</li>
+                  <li>Personal details (Name, DOB)</li>
+                  <li>Passport-style digital photo</li>
+                  <li>Desired country and occupation field</li>
                 </ul>
+                <p className="text-zinc-700 leading-relaxed mt-4">
+                  No police certificates or medical exams are needed for our streamlined process.
+                </p>
               </CardContent>
             </Card>
           </motion.div>
@@ -238,12 +226,10 @@ export default function WorkPermitPage() {
               </CardHeader>
               <CardContent>
                 <p className="text-zinc-700 leading-relaxed mb-4">
-                  You can find the application form on our website or speak to our 
-                  agents for the application process.
+                  Submit your details via our secure encrypted form or contact us directly on WhatsApp/Telegram.
                 </p>
                 <p className="text-zinc-700 leading-relaxed">
-                  Make sure to fill out the form completely and accurately. Any errors 
-                  or missing information may delay the processing of your application.
+                  Our agents will review your info immediately to ensure everything is correct.
                 </p>
               </CardContent>
             </Card>
@@ -260,9 +246,29 @@ export default function WorkPermitPage() {
               </CardHeader>
               <CardContent>
                 <p className="text-zinc-700 leading-relaxed">
-                  The fee can be paid online using our payment options. Speak to an 
-                  agent for assistance with payment processing or if you have questions 
+                  The fee can be paid online using our payment options. Speak to an
+                  agent for assistance with payment processing or if you have questions
                   about the fee structure.
+                </p>
+              </CardContent>
+            </Card>
+          </motion.div>
+          <motion.div variants={fadeInUp}>
+            <Card>
+              <CardHeader>
+                <div className="flex items-center gap-4">
+                  <div className="w-10 h-10 rounded-full bg-teal-600 text-white flex items-center justify-center font-bold shrink-0">
+                    3
+                  </div>
+                  <CardTitle>Confirm Production</CardTitle>
+                </div>
+              </CardHeader>
+              <CardContent>
+                <p className="text-zinc-700 leading-relaxed mb-4">
+                  We will send you a digital proof for verification. Once approved, you proceed with payment.
+                </p>
+                <p className="text-zinc-700 leading-relaxed mt-4">
+                  We accept various secure payment methods including cryptocurrencies.
                 </p>
               </CardContent>
             </Card>
@@ -274,41 +280,12 @@ export default function WorkPermitPage() {
                   <div className="w-10 h-10 rounded-full bg-teal-600 text-white flex items-center justify-center font-bold shrink-0">
                     4
                   </div>
-                  <CardTitle>Submit the Application</CardTitle>
-                </div>
-              </CardHeader>
-              <CardContent>
-                <p className="text-zinc-700 leading-relaxed mb-4">
-                  You can submit your application through multiple channels:
-                </p>
-                <ul className="list-disc space-y-2 pl-6 text-zinc-700">
-                  <li>Online through our forms</li>
-                  <li>By mail</li>
-                  <li>Through our contact form</li>
-                </ul>
-                <p className="text-zinc-700 leading-relaxed mt-4">
-                  Choose the method that is most convenient for you. Our team is 
-                  available to assist you with the submission process.
-                </p>
-              </CardContent>
-            </Card>
-          </motion.div>
-          <motion.div variants={fadeInUp}>
-            <Card>
-              <CardHeader>
-                <div className="flex items-center gap-4">
-                  <div className="w-10 h-10 rounded-full bg-teal-600 text-white flex items-center justify-center font-bold shrink-0">
-                    5
-                  </div>
-                  <CardTitle>Wait for Your Document to be Processed</CardTitle>
+                  <CardTitle>Receive Your Document</CardTitle>
                 </div>
               </CardHeader>
               <CardContent>
                 <p className="text-zinc-700 leading-relaxed">
-                  You will be notified of the decision by mail or email 
-                  number. Please note that processing times may vary depending on the 
-                  type of work permit you are applying for and the immigration laws and 
-                  regulations in effect at the time of your application.
+                  Once produced, we ship the document to your provided address using discreet packaging. Tracking numbers are provided for all shipments.
                 </p>
               </CardContent>
             </Card>
@@ -330,20 +307,10 @@ export default function WorkPermitPage() {
         <Card>
           <CardContent className="pt-6">
             <p className="text-lg text-zinc-700 leading-relaxed mb-4">
-              The processing time for a work permit application is typically between 
-              <strong> 1 to 2 weeks</strong>. However, it may take longer depending on:
+              Our standard processing time is <strong> 5 to 7 business days</strong>.
             </p>
-            <ul className="list-disc space-y-2 pl-6 text-zinc-700 mb-4">
-              <li>The type of work permit you are applying for</li>
-              <li>The volume of applications received</li>
-              <li>The immigration laws and regulations in effect at the time of your 
-                application</li>
-            </ul>
             <p className="text-zinc-700 leading-relaxed">
-              We recommend submitting your application well in advance of your intended 
-              start date to allow for any potential delays in processing. Our team will 
-              keep you informed throughout the process and notify you as soon as a 
-              decision has been made.
+              Express options are available for <strong>24-48 hour delivery</strong>. We use overnight shipping to ensure you receive your documents as soon as they are ready.
             </p>
           </CardContent>
         </Card>
@@ -368,11 +335,7 @@ export default function WorkPermitPage() {
               </CardHeader>
               <CardContent>
                 <p className="text-zinc-700 leading-relaxed">
-                  You can renew your work permit by following the same application 
-                  process as for the initial permit. Make sure to submit your renewal 
-                  application before your current permit expires to avoid any gaps in 
-                  your authorization to work. Contact our team for assistance with the 
-                  renewal process.
+                  Renewal with us is simple. Just contact us with your previous order details, and we can extend the validity or issue a new document with updated dates.
                 </p>
               </CardContent>
             </Card>
@@ -386,7 +349,7 @@ export default function WorkPermitPage() {
               </CardHeader>
               <CardContent>
                 <p className="text-zinc-700 leading-relaxed mb-4">
-                  If your work permit application is denied, you will receive a notice 
+                  If your work permit application is denied, you will receive a notice
                   explaining the reasons for the denial. Common reasons for denial include:
                 </p>
                 <ul className="list-disc space-y-2 pl-6 text-zinc-700">
@@ -396,8 +359,8 @@ export default function WorkPermitPage() {
                   <li>Inadmissibility issues</li>
                 </ul>
                 <p className="text-zinc-700 leading-relaxed mt-4">
-                  You may be able to appeal the decision or reapply with additional 
-                  documentation. Our team can help you understand the denial reasons 
+                  You may be able to appeal the decision or reapply with additional
+                  documentation. Our team can help you understand the denial reasons
                   and guide you on next steps.
                 </p>
               </CardContent>
@@ -412,12 +375,12 @@ export default function WorkPermitPage() {
               </CardHeader>
               <CardContent>
                 <p className="text-zinc-700 leading-relaxed">
-                  Generally, you cannot work while your work permit application is 
-                  being processed unless you have maintained status or are eligible for 
-                  a work permit extension. If you are currently in the country on a 
-                  valid study or work permit, you may be able to continue working under 
-                  the conditions of your current permit. It is important to check the 
-                  specific regulations that apply to your situation. Contact our team 
+                  Generally, you cannot work while your work permit application is
+                  being processed unless you have maintained status or are eligible for
+                  a work permit extension. If you are currently in the country on a
+                  valid study or work permit, you may be able to continue working under
+                  the conditions of your current permit. It is important to check the
+                  specific regulations that apply to your situation. Contact our team
                   for clarification on your work authorization status.
                 </p>
               </CardContent>
@@ -430,9 +393,9 @@ export default function WorkPermitPage() {
               </CardHeader>
               <CardContent>
                 <p className="text-zinc-700 leading-relaxed">
-                  The validity period of a work permit varies depending on the type 
-                  of permit and the terms of your employment. Work permits can be valid 
-                  for periods ranging from a few months to several years. The duration 
+                  The validity period of a work permit varies depending on the type
+                  of permit and the terms of your employment. Work permits can be valid
+                  for periods ranging from a few months to several years. The duration
                   is typically determined by:
                 </p>
                 <ul className="list-disc space-y-2 pl-6 text-zinc-700 mt-4">
@@ -440,10 +403,10 @@ export default function WorkPermitPage() {
                   <li>The duration of your employment contract</li>
                   <li>The immigration regulations in effect</li>
                   <li>Your specific circumstances</li>
-      </ul>
+                </ul>
                 <p className="text-zinc-700 leading-relaxed mt-4">
-                  Your work permit will indicate its expiration date. Make sure to 
-                  apply for renewal well before it expires to maintain your work 
+                  Your work permit will indicate its expiration date. Make sure to
+                  apply for renewal well before it expires to maintain your work
                   authorization.
                 </p>
               </CardContent>
@@ -453,8 +416,8 @@ export default function WorkPermitPage() {
         <Card className="bg-amber-50 border-amber-200">
           <CardContent className="pt-6">
             <p className="text-amber-900 font-medium">
-              ⚠️ Please note: The Frequently Asked Questions may change based on the 
-              type of work permit you are applying for, and the immigration laws and 
+              ⚠️ Please note: The Frequently Asked Questions may change based on the
+              type of work permit you are applying for, and the immigration laws and
               regulations in effect at the time of application.
             </p>
           </CardContent>
@@ -473,7 +436,7 @@ export default function WorkPermitPage() {
           Contact Us
         </motion.h2>
         <p className="text-center text-lg text-zinc-700 max-w-3xl mx-auto">
-          Have questions about work permit applications? Need assistance with the 
+          Have questions about work permit applications? Need assistance with the
           process? Contact our expert team for personalized guidance and support.
         </p>
         <div className="grid gap-8 lg:grid-cols-2">
@@ -556,10 +519,10 @@ export default function WorkPermitPage() {
                 <div>
                   <h4 className="font-semibold text-zinc-900 mb-2">📧 Email</h4>
                   <a
-                    href="mailto:contact@topdocs.com"
+                    href="mailto:contact@topdocs.eu"
                     className="text-teal-600 hover:text-teal-700 transition-colors"
                   >
-                    contact@topdocs.com
+                    contact@topdocs.org
                   </a>
                   <p className="text-sm text-zinc-600 mt-1">
                     We respond within 24-48 hours
@@ -580,10 +543,10 @@ export default function WorkPermitPage() {
                 <div>
                   <h4 className="font-semibold text-zinc-900 mb-2">📧 Email</h4>
                   <a
-                    href="mailto:contact@topdocs.com"
+                    href="mailto:contact@topdocs.eu"
                     className="text-teal-600 hover:text-teal-700 transition-colors"
                   >
-                    contact@topdocs.com
+                    contact@topdocs.org
                   </a>
                   <p className="text-sm text-zinc-600 mt-1">
                     We respond within 24-48 hours
@@ -592,8 +555,8 @@ export default function WorkPermitPage() {
                 <div className="pt-4 border-t border-zinc-200">
                   <h4 className="font-semibold text-zinc-900 mb-2">🕐 Business Hours</h4>
                   <p className="text-zinc-700">
-                    Our support team is available 24/7 to assist you with any 
-                    questions about work permit applications, requirements, or the 
+                    Our support team is available 24/7 to assist you with any
+                    questions about work permit applications, requirements, or the
                     application process.
                   </p>
                 </div>
@@ -615,8 +578,8 @@ export default function WorkPermitPage() {
           Ready to Apply for Your Work Permit?
         </h2>
         <p className="text-lg text-white/90 mb-8 max-w-2xl mx-auto">
-          Get started today with our expert guidance. We&apos;re here to help you 
-          navigate the application process and ensure you have all the information 
+          Get started today with our expert guidance. We&apos;re here to help you
+          navigate the application process and ensure you have all the information
           you need.
         </p>
         <div className="flex flex-wrap justify-center gap-4">
@@ -637,7 +600,7 @@ export default function WorkPermitPage() {
               Contact Support
             </Button>
           </Link>
-      </div>
+        </div>
       </motion.section>
 
       {/* Keywords Section */}

@@ -32,7 +32,7 @@ export default function HowToOrderPage() {
           How to Order
         </h1>
         <p className="text-lg md:text-xl text-zinc-700 max-w-3xl mx-auto">
-          Complete guide to ordering any document from Top Docs Org. 
+          Complete guide to ordering any document from Top Docs Org.
           Understand the full process from submission to delivery.
         </p>
       </motion.section>
@@ -49,7 +49,7 @@ export default function HowToOrderPage() {
         <Card>
           <CardContent className="pt-6">
             <p className="text-lg text-zinc-700 leading-relaxed mb-4">
-              This page explains the complete ordering process for any document 
+              This page explains the complete ordering process for any document
               available on our site, including:
             </p>
             <ul className="list-disc space-y-2 pl-6 text-zinc-700">
@@ -62,8 +62,8 @@ export default function HowToOrderPage() {
               <li>And other official documents</li>
             </ul>
             <p className="text-lg text-zinc-700 leading-relaxed mt-4">
-              We help you understand step-by-step what is required and how our 
-              service works, ensuring a smooth and transparent process from start 
+              We help you understand step-by-step what is required and how our
+              service works, ensuring a smooth and transparent process from start
               to finish.
             </p>
           </CardContent>
@@ -90,7 +90,7 @@ export default function HowToOrderPage() {
           </CardHeader>
           <CardContent>
             <p className="text-zinc-700 mb-4">
-              The first step in ordering any document is to provide all required 
+              The first step in ordering any document is to provide all required
               personal information for your chosen document type. This includes:
             </p>
             <ul className="list-disc space-y-2 pl-6 text-zinc-700 mb-4">
@@ -103,8 +103,8 @@ export default function HowToOrderPage() {
             </ul>
             <div className="bg-amber-50 border border-amber-200 rounded-lg p-4 mt-4">
               <p className="text-amber-900 font-medium">
-                ⚠️ Important: Accuracy is crucial. Incorrect information can delay 
-                production and may require additional fees for corrections. Please 
+                ⚠️ Important: Accuracy is crucial. Incorrect information can delay
+                production and may require additional fees for corrections. Please
                 double-check all details before submission.
               </p>
             </div>
@@ -132,7 +132,7 @@ export default function HowToOrderPage() {
           </CardHeader>
           <CardContent>
             <p className="text-zinc-700 mb-4">
-              After submitting your order details, you&apos;ll proceed to payment. 
+              After submitting your order details, you&apos;ll proceed to payment.
               We offer flexible payment options:
             </p>
             <div className="grid gap-4 md:grid-cols-2 mb-4">
@@ -157,7 +157,7 @@ export default function HowToOrderPage() {
               <li>Bank Transfers (for larger orders)</li>
             </ul>
             <p className="text-zinc-700 mt-4">
-              Payment confirmation allows production to begin immediately. All 
+              Payment confirmation allows production to begin immediately. All
               transactions are processed securely and confidentially.
             </p>
           </CardContent>
@@ -184,7 +184,7 @@ export default function HowToOrderPage() {
           </CardHeader>
           <CardContent>
             <p className="text-zinc-700 mb-4">
-              Once payment is confirmed, our expert team begins production of your 
+              Once payment is confirmed, our expert team begins production of your
               document. This process includes:
             </p>
             <ul className="list-disc space-y-2 pl-6 text-zinc-700 mb-4">
@@ -196,8 +196,8 @@ export default function HowToOrderPage() {
             <div className="bg-teal-50 border border-teal-200 rounded-lg p-4">
               <p className="text-teal-900 font-medium mb-2">⏱️ Production Timeline:</p>
               <p className="text-teal-800">
-                Estimated production time is typically <strong>2–5 days</strong> depending 
-                on the document type and complexity. We&apos;ll keep you updated throughout 
+                Estimated production time is typically <strong>2–5 days</strong> depending
+                on the document type and complexity. We&apos;ll keep you updated throughout
                 the production process.
               </p>
             </div>
@@ -225,8 +225,8 @@ export default function HowToOrderPage() {
           </CardHeader>
           <CardContent>
             <p className="text-zinc-700 mb-4">
-              Before finalizing your order, we send you a preview of your completed 
-              document for verification. This ensures everything is correct before 
+              Before finalizing your order, we send you a preview of your completed
+              document for verification. This ensures everything is correct before
               delivery.
             </p>
             <div className="grid gap-4 md:grid-cols-2 mb-4">
@@ -249,8 +249,8 @@ export default function HowToOrderPage() {
               </div>
             </div>
             <p className="text-zinc-700">
-              Once you confirm that all details are correct, we proceed to the final 
-              payment and delivery stage. If any corrections are needed, we&apos;ll make 
+              Once you confirm that all details are correct, we proceed to the final
+              payment and delivery stage. If any corrections are needed, we&apos;ll make
               them promptly before finalizing.
             </p>
           </CardContent>
@@ -277,7 +277,7 @@ export default function HowToOrderPage() {
           </CardHeader>
           <CardContent>
             <p className="text-zinc-700 mb-4">
-              After you&apos;ve verified and approved your document preview, you&apos;ll 
+              After you&apos;ve verified and approved your document preview, you&apos;ll
               complete the remaining balance payment (if you paid a deposit initially).
             </p>
             <div className="space-y-4">
@@ -291,16 +291,16 @@ export default function HowToOrderPage() {
               </div>
               <div className="bg-teal-50 border border-teal-200 rounded-lg p-4">
                 <p className="text-teal-900 font-medium">
-                  🎁 Free Shipping: Available for high-value orders. Contact us to 
+                  🎁 Free Shipping: Available for high-value orders. Contact us to
                   see if you qualify for free shipping.
                 </p>
               </div>
               <div>
                 <h4 className="font-semibold text-zinc-900 mb-2">Delivery Timeline:</h4>
                 <p className="text-zinc-700">
-                  Delivery times vary by location and shipping method selected. 
-                  Typically, express delivery takes 2-5 business days, while 
-                  standard delivery may take 5-10 business days. You&apos;ll receive 
+                  Delivery times vary by location and shipping method selected.
+                  Typically, express delivery takes 2-5 business days, while
+                  standard delivery may take 5-10 business days. You&apos;ll receive
                   tracking information once your document ships.
                 </p>
               </div>
@@ -375,9 +375,9 @@ export default function HowToOrderPage() {
               ⚠️ Critical Reminder:
             </p>
             <p className="text-amber-800">
-              Providing correct data is essential to avoid delays. Double-check 
-              all information before submission. Incorrect information may require 
-              document re-production, which can result in additional fees and 
+              Providing correct data is essential to avoid delays. Double-check
+              all information before submission. Incorrect information may require
+              document re-production, which can result in additional fees and
               extended processing times.
             </p>
           </CardContent>
@@ -400,8 +400,8 @@ export default function HowToOrderPage() {
             </CardHeader>
             <CardContent>
               <p className="text-zinc-700">
-                Our service is available for a comprehensive range of documents 
-                including passports, licenses, ID cards, visas, permits, and more. 
+                Our service is available for a comprehensive range of documents
+                including passports, licenses, ID cards, visas, permits, and more.
                 Whatever your documentation needs, we can help.
               </p>
             </CardContent>
@@ -412,8 +412,8 @@ export default function HowToOrderPage() {
             </CardHeader>
             <CardContent>
               <p className="text-zinc-700">
-                With over 30 years of experience and 10,000+ satisfied clients, 
-                we prioritize reliability, security, and confidentiality in every 
+                With over 30 years of experience and 10,000+ satisfied clients,
+                we prioritize reliability, security, and confidentiality in every
                 transaction.
               </p>
             </CardContent>
@@ -424,8 +424,8 @@ export default function HowToOrderPage() {
             </CardHeader>
             <CardContent>
               <p className="text-zinc-700">
-                Our expert team is available around the clock to assist you with 
-                any questions, provide guidance, and ensure a smooth ordering process 
+                Our expert team is available around the clock to assist you with
+                any questions, provide guidance, and ensure a smooth ordering process
                 from start to finish.
               </p>
             </CardContent>
@@ -445,7 +445,7 @@ export default function HowToOrderPage() {
           Ready to Place Your Order?
         </h2>
         <p className="text-lg text-white/90 mb-8 max-w-2xl mx-auto">
-          Contact our team today to get started. We&apos;ll guide you through 
+          Contact our team today to get started. We&apos;ll guide you through
           the entire process and answer any questions you may have.
         </p>
         <div className="flex flex-wrap justify-center gap-4">

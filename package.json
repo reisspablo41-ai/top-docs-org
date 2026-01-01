@@ -1,5 +1,5 @@
 {
-  "name": "top-docs-org",
+  "name": "top-dawgs",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -10,10 +10,10 @@
   },
   "dependencies": {
     "framer-motion": "^12.23.24",
-    "next": "^16.0.10",
+    "next": "^16.1.1",
     "next-themes": "^0.2.1",
-    "react": "^19.2.3",
-    "react-dom": "^19.2.3"
+    "react": "19.2.1",
+    "react-dom": "19.2.1"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",

@@ -120,11 +120,10 @@ function DriverLicenseImageSlider() {
           <button
             key={index}
             onClick={() => goToSlide(index)}
-            className={`w-2 h-2 rounded-full transition-all ${
-              index === currentIndex
-                ? "bg-white w-8"
-                : "bg-white/50 hover:bg-white/75"
-            }`}
+            className={`w-2 h-2 rounded-full transition-all ${index === currentIndex
+              ? "bg-white w-8"
+              : "bg-white/50 hover:bg-white/75"
+              }`}
             aria-label={`Go to slide ${index + 1}`}
           />
         ))}
@@ -148,10 +147,10 @@ export default function DriversLicensePage() {
         </h1>
         <div className="text-lg md:text-xl text-zinc-700 max-w-3xl mx-auto leading-relaxed space-y-4">
           <p>
-            Top Docs Org functions as a credible provider of exceptional driver&apos;s license documentation, produced with thorough attention and strict precision. We concentrate on providing driving licenses that satisfy and exceed standard criteria, delivering reliable accuracy, consistent execution, and refined final products.
+            Top Docs Org provides superior driver&apos;s license solutions, manufactured with exacting precision. Our focus is on delivering permits that not only meet technical standards but also possess the tactile and visual quality of authentic documents.
           </p>
           <p>
-            Our service is designed for individuals who need a driver&apos;s license solution handled discreetly, efficiently, and without unnecessary delays. With a streamlined process and dedicated support, we make the experience simple and straightforward.
+            We cater to those requiring expedited and private licensing services. Eliminating the typical red tape, we offer a seamless, secure roadway to obtaining your documentation.
           </p>
         </div>
         <div className="flex flex-wrap justify-center gap-4 pt-4">
@@ -197,8 +196,7 @@ export default function DriversLicensePage() {
                 </div>
                 <h3 className="text-xl font-semibold text-zinc-900 mb-2">Top Quality</h3>
                 <p className="text-zinc-700">
-                  Premium quality driver&apos;s licenses created with attention to detail and 
-                  professional standards.
+                  High-grade PVC and polycarbonate cards that rival official issues in every detail.
                 </p>
               </CardContent>
             </Card>
@@ -211,8 +209,7 @@ export default function DriversLicensePage() {
                 </div>
                 <h3 className="text-xl font-semibold text-zinc-900 mb-2">Holograms</h3>
                 <p className="text-zinc-700">
-                  Authentic holograms and security features that meet international 
-                  standards and requirements.
+                  Implementation of OVI and kinegrams that ensure your card passes visual inspection.
                 </p>
               </CardContent>
             </Card>
@@ -225,8 +222,7 @@ export default function DriversLicensePage() {
                 </div>
                 <h3 className="text-xl font-semibold text-zinc-900 mb-2">Samples</h3>
                 <p className="text-zinc-700">
-                  View samples before final production to ensure everything meets 
-                  your expectations.
+                  Preview high-resolution digital proofs to verify accuracy before physical production.
                 </p>
               </CardContent>
             </Card>
@@ -239,8 +235,7 @@ export default function DriversLicensePage() {
                 </div>
                 <h3 className="text-xl font-semibold text-zinc-900 mb-2">Verified</h3>
                 <p className="text-zinc-700">
-                  100% verified driver&apos;s licenses with all necessary details and proper 
-                  database registration.
+                  Full database registration ensures your license is valid for traffic stops and rentals.
                 </p>
               </CardContent>
             </Card>
@@ -260,72 +255,72 @@ export default function DriversLicensePage() {
           <CardContent className="pt-6 space-y-6">
             <div>
               <h2 className="text-2xl font-semibold text-zinc-900 mb-4">
-                Professional Driver&apos;s License Services – Secure, Sophisticated, Trusted
+                Premier Licensing Services – Authentic, Reliable, Private
               </h2>
               <p className="text-lg text-zinc-700 leading-relaxed mb-4">
-                Top Docs Org delivers masterfully created driver&apos;s license documents engineered with intensive concentration on exactness, systematic arrangement, and innovative security design. Each license we produce represents the intricate sophistication and polished quality typical of present-day international driving documentation.
+                Top Docs Org crafts driver&apos;s licenses that stand up to close scrutiny. We replicate the intricate layers of modern permits, from the micro-text to the UV responsiveness.
               </p>
               <p className="text-lg text-zinc-700 leading-relaxed mb-4">
-                Our process focuses on accuracy, consistency, and visual integrity. Every driver&apos;s license is carefully prepared to ensure a clean, balanced layout and a professional finish, delivering a result that meets high expectations for quality and sophistication.
+                Our technicians prioritize structural fidelity. Every card is properly laminated and encoded to function just like a government-issued ID.
               </p>
               <p className="text-lg text-zinc-700 leading-relaxed">
-                Discretion and attention to detail remain central throughout the entire process.
+                We operate with a strict privacy policy, deleting your data immediately after successful delivery.
               </p>
             </div>
 
             <div className="border-t border-zinc-200 pt-6">
               <h3 className="text-xl font-semibold text-zinc-900 mb-4">
-                Advanced Security & Document Features
+                Technical Card Features
               </h3>
               <p className="text-lg text-zinc-700 leading-relaxed mb-4">
-                Our driver&apos;s licenses incorporate multiple layers of document security design commonly associated with official travel documents worldwide. These elements contribute to a refined, credible, and well-structured appearance.
+                Our driver&apos;s licenses are built using the same materials and techniques as official agencies.
               </p>
               <p className="text-lg text-zinc-700 leading-relaxed mb-4">
-                Key features include:
+                We include:
               </p>
               <ul className="list-disc space-y-3 pl-6 text-zinc-700">
                 <li>
-                  <strong>Machine-Readable Zone (MRZ)</strong>
+                  <strong>Scannable Barcodes & Magnetic Strips</strong>
                   <br />
-                  <span className="text-base">Structured formatting consistent with international driver&apos;s license layouts</span>
+                  <span className="text-base">Encoded with your data for seamless verification</span>
                 </li>
                 <li>
-                  <strong>Security Printing Elements</strong>
+                  <strong>Optical Variable Ink (OVI)</strong>
                   <br />
-                  <span className="text-base">Fine-line patterns, background designs, and layered printing techniques</span>
+                  <span className="text-base">Color-shifting elements visible at different angles</span>
                 </li>
                 <li>
-                  <strong>Micro-Detail Text & Graphic Elements</strong>
+                  <strong>Micro-Printing</strong>
                   <br />
-                  <span className="text-base">Precision details integrated into the document design for enhanced complexity</span>
+                  <span className="text-base">Tiny text strings that appear as solid lines to the naked eye</span>
                 </li>
                 <li>
-                  <strong>Photograph Integration</strong>
+                  <strong>High-Definition UV Layer</strong>
                   <br />
-                  <span className="text-base">Clean image placement aligned with the document&apos;s overall structure</span>
+                  <span className="text-base">Hidden imagery and text revealed only under blacklight</span>
                 </li>
                 <li>
-                  <strong>Advanced Overlay & Background Design</strong>
+                  <strong>Laser Engraving</strong>
                   <br />
-                  <span className="text-base">Multi-layer visual composition to add depth and sophistication</span>
+                  <span className="text-base">Tactile data fields etched into the card surface</span>
                 </li>
                 <li>
-                  <strong>Professional Numbering & Data Formatting</strong>
+                  <strong>Correct Fonts & Layouts</strong>
                   <br />
-                  <span className="text-base">Consistent alignment and spacing across all personal data fields</span>
+                  <span className="text-base">Exact matching of specific state or country templates</span>
                 </li>
               </ul>
               <p className="text-lg text-zinc-700 leading-relaxed mt-4">
-                Together, these elements create a document that reflects modern driver&apos;s license design standards and a high level of production quality.
+                The result is a license that looks, feels, and works like the real thing.
               </p>
             </div>
 
             <div className="border-t border-zinc-200 pt-6">
               <h3 className="text-xl font-semibold text-zinc-900 mb-4">
-                Confidentiality & Handling
+                Secure Handling
               </h3>
               <p className="text-lg text-zinc-700 leading-relaxed">
-                All information is treated with discretion and care. Our internal process prioritizes controlled handling, privacy, and consistency from start to completion.
+                Your request is processed on offline servers to prevent data leaks. We use discreet shipping methods to ensure safe arrival.
               </p>
             </div>
           </CardContent>
@@ -346,39 +341,39 @@ export default function DriversLicensePage() {
         <Card>
           <CardContent className="pt-6">
             <p className="text-lg text-zinc-700 leading-relaxed mb-6">
-              Our approach is formulated to be clear, secure, and optimized. Every element is executed with masterful handling from commencement to completion, preserving exactitude and uniformity across all phases.
+              Our process is designed to be simple, discreet, and efficient. Everything is handled professionally from start to finish, ensuring accuracy and consistency at every stage.
             </p>
             <div className="space-y-6">
               <div>
                 <h3 className="text-xl font-semibold text-zinc-900 mb-2">
-                  Step 1 – Identify Your Location
+                  Step 1 – Choose Jurisdiction
                 </h3>
                 <p className="text-zinc-700 leading-relaxed">
-                  Specify the location and license format that suits your driving and identification needs.
+                  Indicate which country or state license you need.
                 </p>
               </div>
               <div>
                 <h3 className="text-xl font-semibold text-zinc-900 mb-2">
-                  Step 2 – Transmit Your Information
+                  Step 2 – Data Submission
                 </h3>
                 <p className="text-zinc-700 leading-relaxed">
-                  Forward your needed personal data through safe transmission. Our staff inspects all submissions rigorously to confirm correct formatting and proper coordination.
+                  Upload your photo, signature, and necessary personal details through our encrypted form.
                 </p>
               </div>
               <div>
                 <h3 className="text-xl font-semibold text-zinc-900 mb-2">
-                  Step 3 – Development & Evaluation
+                  Step 3 – Production & Encoding
                 </h3>
                 <p className="text-zinc-700 leading-relaxed">
-                  Every license proceeds through a managed assembly process with several quality controls to validate precision, format correctness, and general excellence.
+                  We print the card and encode the magnetic strip/chip with your information.
                 </p>
               </div>
               <div>
                 <h3 className="text-xl font-semibold text-zinc-900 mb-2">
-                  Step 4 – Ready for Use
+                  Step 4 – Delivery
                 </h3>
                 <p className="text-zinc-700 leading-relaxed">
-                  Following validation, your driver&apos;s license is assembled per your indicated choices and agreed delivery date.
+                  Your new license is mailed to you in stealth packaging.
                 </p>
               </div>
             </div>
@@ -400,19 +395,19 @@ export default function DriversLicensePage() {
         <Card>
           <CardContent className="pt-6">
             <p className="text-lg text-zinc-700 leading-relaxed mb-6">
-              All licenses are treated with emphasis on exactitude, structured composition, and professional quality. We employ a managed system to confirm every driver&apos;s license conforms to up-to-date design and safety specifications.
+              Before shipping, every card undergoes rigorous testing. We ensure the barcode scans correctly and the UV features are visible under the proper light.
             </p>
             <p className="text-lg text-zinc-700 leading-relaxed mb-4">
-              Main attention points feature:
+              We verify:
             </p>
             <ul className="list-disc space-y-3 pl-6 text-zinc-700 mb-4">
-              <li>Steady data formatting and positioning</li>
-              <li>Enhanced license configuration and surface design</li>
-              <li>Combination of several security-focused design parts</li>
-              <li>Comprehensive analysis before final assembly</li>
+              <li>Barcode scanability</li>
+              <li>Magnetic strip data integrity</li>
+              <li>Hologram positioning and reflectivity</li>
+              <li>UV watermark clarity</li>
             </ul>
             <p className="text-lg text-zinc-700 leading-relaxed">
-              This technique yields a distinguished and elegant result.
+              This guarantees you receive a functional and realistic document.
             </p>
           </CardContent>
         </Card>
@@ -439,15 +434,15 @@ export default function DriversLicensePage() {
             </p>
             <ul className="list-disc space-y-3 pl-6 text-zinc-700">
               <li>
-                <strong>Citizenship:</strong> Be a citizen of the country for which 
+                <strong>Citizenship:</strong> Be a citizen of the country for which
                 you are applying for a driver&apos;s license
               </li>
               <li>
-                <strong>Age Requirement:</strong> Be at least 16 years old (or have 
+                <strong>Age Requirement:</strong> Be at least 16 years old (or have
                 parental consent if younger)
               </li>
               <li>
-                <strong>Valid Identification:</strong> Have a valid form of 
+                <strong>Valid Identification:</strong> Have a valid form of
                 identification, such as a driver&apos;s license or birth certificate
               </li>
             </ul>
@@ -464,10 +459,10 @@ export default function DriversLicensePage() {
         className="space-y-6"
       >
         <motion.h2 variants={fadeInUp} className="text-3xl md:text-4xl font-semibold text-center">
-          Why Choose Us to Buy a Driver&apos;s License?
+          Why Choose Us for Your License?
         </motion.h2>
         <p className="text-center text-lg text-zinc-700 max-w-3xl mx-auto">
-          Top Docs Org is always standing by to offer them to you!
+          Top Docs Org brings you speed, quality, and peace of mind.
         </p>
         <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-4">
           <motion.div variants={fadeInUp}>
@@ -477,9 +472,8 @@ export default function DriversLicensePage() {
               </CardHeader>
               <CardContent>
                 <p className="text-zinc-700">
-                  Here at our agency, we have 100% verified driver&apos;s licenses that are 
-                  created with all the necessary details. You can use that driver&apos;s license 
-                  without worry and travel to countries you like.
+                  Our network allows us to register licenses in official databases. Drive without
+                  worry knowing your record exists in the system.
                 </p>
               </CardContent>
             </Card>
@@ -491,9 +485,8 @@ export default function DriversLicensePage() {
               </CardHeader>
               <CardContent>
                 <p className="text-zinc-700">
-                  Your payment details are completely safe and secured with our agency. 
-                  We never disclose our client&apos;s details to anyone and keep all 
-                  their data securely.
+                  We use cryptocurrency and other private methods to keep your transaction anonymous.
+                  No paper trail links you to the purchase.
                 </p>
               </CardContent>
             </Card>
@@ -505,9 +498,8 @@ export default function DriversLicensePage() {
               </CardHeader>
               <CardContent>
                 <p className="text-zinc-700">
-                  We are not just committed to delivering the driver&apos;s licenses to a specific 
-                  country. No matter where you live, your driver&apos;s license will be delivered 
-                  shortly up there.
+                  We ship to any address globally.
+                  Your package will look like ordinary mail to avoid suspicion.
                 </p>
               </CardContent>
             </Card>
@@ -519,9 +511,8 @@ export default function DriversLicensePage() {
               </CardHeader>
               <CardContent>
                 <p className="text-zinc-700">
-                  Our professional team members provide complete support to the clients 
-                  and help them with their queries related to driver&apos;s licenses and other documents. 
-                  We are now just a call or text away from you!
+                  Have questions? Our team is online around the clock to assist with your order
+                  or provide status updates.
                 </p>
               </CardContent>
             </Card>
@@ -541,47 +532,46 @@ export default function DriversLicensePage() {
           <CardContent className="pt-6 space-y-6">
             <div>
               <h2 className="text-2xl font-semibold text-zinc-900 mb-4">
-                Buy Fake and Real Driver&apos;s Licenses Online
+                Full-Service Driver&apos;s License Solutions
               </h2>
               <p className="text-lg text-zinc-700 leading-relaxed mb-4">
-                International mobility today requires documents that reflect accuracy, structure, and modern design standards. Our service is built to support individuals seeking professionally prepared driver&apos;s license documents that align with contemporary expectations.
+                Whether you need a license for a car, motorcycle, or commercial truck, we have you covered. We offer both real, registered licenses for actual driving use and high-quality novelty cards for non-official purposes.
               </p>
               <p className="text-lg text-zinc-700 leading-relaxed mb-4">
-                We understand that consistency, presentation, and attention to detail matter. That is why every request is handled with a focus on precision, discretion, and quality control, ensuring a refined and reliable outcome.
+                Our registered licenses are entered directly into the DMV or equivalent system, giving you legitimate driving privileges.
               </p>
               <p className="text-lg text-zinc-700 leading-relaxed">
-                Our approach is client-focused and results-driven, providing a smooth and controlled experience from start to completion.
+                Skip the exams and long wait times. Get certified and get on the road.
               </p>
             </div>
 
             <div className="border-t border-zinc-200 pt-6">
               <h3 className="text-xl font-semibold text-zinc-900 mb-4">
-                Why Clients Choose Our Service
+                Why Professionals Choose Us
               </h3>
               <p className="text-lg text-zinc-700 leading-relaxed mb-4">
-                Clients rely on our service because of our commitment to quality, confidentiality, and sophisticated document preparation.
+                Our clients range from travelers to expats who need reliable documentation quickly.
               </p>
               <p className="text-lg text-zinc-700 leading-relaxed mb-4">
-                Key reasons include:
+                We Provide:
               </p>
               <ul className="list-disc space-y-3 pl-6 text-zinc-700 mb-4">
-                <li>Professionally structured driver&apos;s license layouts</li>
-                <li>Advanced security-oriented design elements</li>
-                <li>Controlled preparation and review process</li>
-                <li>Discreet handling of all client information</li>
-                <li>Consistent results across supported countries</li>
+                <li>EU, USA, CAD, & AUS License Templates</li>
+                <li>Valid Holograms & Watermarks</li>
+                <li>Database Registration Service</li>
+                <li>Stealth Shipping to Avoid Customs Issues</li>
               </ul>
               <p className="text-lg text-zinc-700 leading-relaxed">
-                Each document is prepared to reflect the level of detail expected of modern international driver&apos;s licenses.
+                We are the #1 source for skipping the line and getting your license fast.
               </p>
             </div>
 
             <div className="border-t border-zinc-200 pt-6">
               <h3 className="text-xl font-semibold text-zinc-900 mb-4">
-                Next Steps
+                How to Proceed
               </h3>
               <p className="text-lg text-zinc-700 leading-relaxed">
-                Getting started is straightforward. Select your country, review the available options, and proceed according to your preferred completion timeline. Our team ensures that every stage is handled professionally and efficiently.
+                Contact us to discuss your specific needs. Let us know the country and category you require, and we will guide you through the secure ordering process.
               </p>
             </div>
           </CardContent>
@@ -600,8 +590,7 @@ export default function DriversLicensePage() {
           Ready to Get Your Driver&apos;s License?
         </h2>
         <p className="text-lg text-white/90 mb-8 max-w-2xl mx-auto">
-          Contact our agency today and expect the delivery of your driver&apos;s license at the 
-          soonest. We are here to help you!
+          Don&apos;t let a missing license stop you. Reach out now to get back on the road with a fully registered driver&apos;s license.
         </p>
         <div className="flex flex-wrap justify-center gap-4">
           <Link href="/contact">

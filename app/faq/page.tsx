@@ -48,7 +48,7 @@ const faqs: FAQItem[] = [
     question: "What countries do you serve?",
     answer: "We serve clients worldwide and have experience with documents from multiple jurisdictions including American, European, Australian, UK, and Asian passports and licenses. We provide guidance tailored to your specific location and document requirements.",
   },
-  
+
   // Passports
   {
     category: "Passports",
@@ -75,7 +75,7 @@ const faqs: FAQItem[] = [
     question: "What if my passport is lost or stolen?",
     answer: "We provide guidance for replacing lost or stolen passports, including reporting requirements, necessary documentation, application procedures, and expedited processing options if you have urgent travel plans.",
   },
-  
+
   // Driver's Licenses
   {
     category: "Driver's Licenses",
@@ -102,7 +102,7 @@ const faqs: FAQItem[] = [
     question: "What documents are needed for a driver's license application?",
     answer: "Requirements vary by jurisdiction but typically include proof of identity, proof of residency, Social Security number, completed application forms, proof of completion of driver education (if required), and payment for fees. We provide jurisdiction-specific checklists.",
   },
-  
+
   // ID Cards
   {
     category: "ID Cards",
@@ -124,7 +124,7 @@ const faqs: FAQItem[] = [
     question: "Can I replace a lost or damaged ID card?",
     answer: "Yes, we provide guidance for replacing lost or damaged ID cards, including required documentation, application procedures, fees, and processing times. The process is typically similar to obtaining a new ID card.",
   },
-  
+
   // Residence Permits
   {
     category: "Residence Permits",
@@ -146,7 +146,7 @@ const faqs: FAQItem[] = [
     question: "Can you help with residence permit renewals?",
     answer: "Yes, we provide comprehensive guidance for residence permit renewals, including eligibility requirements, required documentation, submission procedures, timeline planning, and maintaining good standing throughout the renewal process.",
   },
-  
+
   // Work Permits
   {
     category: "Work Permits",
@@ -163,12 +163,12 @@ const faqs: FAQItem[] = [
     question: "What documents are needed for a work permit application?",
     answer: "Common requirements include valid passport, job offer or employment contract, employer sponsorship documents, proof of qualifications, health insurance, and application forms. We provide detailed checklists based on your specific situation.",
   },
-  
+
   // Ordering & Payment
   {
     category: "Ordering & Payment",
     question: "How do I place an order?",
-    answer: "You can contact us through our website contact form or email (contact@topdocs.com). Our team will guide you through the process, provide a tailored checklist, and answer any questions you have.",
+    answer: "You can contact us through our website contact form or email (contact@topdocs.org). Our team will guide you through the process, provide a tailored checklist, and answer any questions you have.",
   },
   {
     category: "Ordering & Payment",
@@ -185,7 +185,7 @@ const faqs: FAQItem[] = [
     question: "Do you offer discounts for multiple documents?",
     answer: "We offer competitive pricing and may provide discounts for multiple documents or group applications. Contact us to discuss your specific needs and we'll provide the best pricing options available.",
   },
-  
+
   // Delivery & Shipping
   {
     category: "Delivery & Shipping",
@@ -207,7 +207,7 @@ const faqs: FAQItem[] = [
     question: "What if I need expedited processing?",
     answer: "Expedited processing options vary by document type and jurisdiction. Contact us to discuss your timeline needs and we'll explore available expedited options and provide realistic expectations for your specific situation.",
   },
-  
+
   // Security & Privacy
   {
     category: "Security & Privacy",
@@ -249,11 +249,11 @@ export default function FAQPage() {
           Frequently Asked Questions
         </h1>
         <p className="text-lg md:text-xl text-zinc-700 max-w-3xl mx-auto">
-          Find answers to common questions about our services, ordering process, 
-          delivery, and more. Can&apos;t find what you&apos;re looking for? 
+          Find answers to common questions about our services, ordering process,
+          delivery, and more. Can&apos;t find what you&apos;re looking for?
           Contact our 24/7 support team.
-          </p>
-        </div>
+        </p>
+      </div>
 
       {/* Category Filter */}
       <div className="flex flex-wrap gap-2 justify-center">
@@ -264,11 +264,10 @@ export default function FAQPage() {
               setSelectedCategory(category);
               setOpenIndex(0);
             }}
-            className={`px-4 py-2 rounded-full text-sm font-medium transition-colors ${
-              selectedCategory === category
-                ? "bg-teal-600 text-white"
-                : "bg-zinc-100 text-zinc-700 hover:bg-zinc-200"
-            }`}
+            className={`px-4 py-2 rounded-full text-sm font-medium transition-colors ${selectedCategory === category
+              ? "bg-teal-600 text-white"
+              : "bg-zinc-100 text-zinc-700 hover:bg-zinc-200"
+              }`}
           >
             {category}
           </button>
@@ -289,9 +288,8 @@ export default function FAQPage() {
                     {faq.question}
                   </h3>
                   <svg
-                    className={`w-5 h-5 text-teal-600 flex-shrink-0 transition-transform ${
-                      openIndex === index ? "rotate-180" : ""
-                    }`}
+                    className={`w-5 h-5 text-teal-600 flex-shrink-0 transition-transform ${openIndex === index ? "rotate-180" : ""
+                      }`}
                     fill="none"
                     stroke="currentColor"
                     viewBox="0 0 24 24"
@@ -323,7 +321,7 @@ export default function FAQPage() {
             </button>
           </Card>
         ))}
-        </div>
+      </div>
 
       {/* Contact CTA */}
       <div className="bg-teal-50 border border-teal-200 rounded-xl p-8 text-center">
@@ -331,7 +329,7 @@ export default function FAQPage() {
           Still have questions?
         </h2>
         <p className="text-zinc-700 mb-6">
-          Our 24/7 support team is here to help. Contact us for personalized 
+          Our 24/7 support team is here to help. Contact us for personalized
           assistance with your specific needs.
         </p>
         <div className="flex flex-wrap justify-center gap-4">
@@ -342,7 +340,7 @@ export default function FAQPage() {
             📧 Contact Us
           </a>
           <a
-            href="mailto:contact@topdocs.com"
+            href="mailto:contact@topdocs.org"
             className="inline-flex items-center gap-2 px-6 py-3 bg-white border border-teal-600 text-teal-600 rounded-md hover:bg-teal-50 transition-colors"
           >
             📧 Email Us

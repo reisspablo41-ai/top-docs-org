@@ -9,17 +9,17 @@ export function Footer() {
           <div>
             <h3 className="text-lg font-semibold mb-4">Top Docs Org</h3>
             <p className="text-sm text-white/90 mb-4">
-              Trusted identity and permit documentation services since 1995. 
-              Professional guidance for official passports, driver&apos;s licenses, 
+              Trusted identity and permit documentation services since 1995.
+              Professional guidance for official passports, driver&apos;s licenses,
               ID cards, and residence permits.
             </p>
             <div className="flex items-center gap-2 text-sm mt-2">
               <span>📧</span>
-              <a 
-                href="mailto:contact@topdocs.com" 
+              <a
+                href="mailto:contact@topdocs.org"
                 className="hover:text-white/80 transition-colors"
               >
-                contact@topdocs.com
+                contact@topdocs.org
               </a>
             </div>
           </div>
@@ -29,40 +29,40 @@ export function Footer() {
             <h3 className="text-lg font-semibold mb-4">Services</h3>
             <ul className="space-y-2 text-sm">
               <li>
-                <Link 
-                  href="/services/passport" 
+                <Link
+                  href="/services/passport"
                   className="text-white/90 hover:text-white transition-colors"
                 >
                   Real Passport
                 </Link>
               </li>
               <li>
-                <Link 
-                  href="/services/drivers-license" 
+                <Link
+                  href="/services/drivers-license"
                   className="text-white/90 hover:text-white transition-colors"
                 >
                   Original Drivers License
                 </Link>
               </li>
               <li>
-                <Link 
-                  href="/services/id-card" 
+                <Link
+                  href="/services/id-card"
                   className="text-white/90 hover:text-white transition-colors"
                 >
                   Original ID Card
                 </Link>
               </li>
               <li>
-                <Link 
-                  href="/services/residence-permit" 
+                <Link
+                  href="/services/residence-permit"
                   className="text-white/90 hover:text-white transition-colors"
                 >
                   Residence Permit
                 </Link>
               </li>
               <li>
-                <Link 
-                  href="/services/work-permit" 
+                <Link
+                  href="/services/work-permit"
                   className="text-white/90 hover:text-white transition-colors"
                 >
                   Work Permit
@@ -76,40 +76,40 @@ export function Footer() {
             <h3 className="text-lg font-semibold mb-4">Quick Links</h3>
             <ul className="space-y-2 text-sm">
               <li>
-                <Link 
-                  href="/news" 
+                <Link
+                  href="/news"
                   className="text-white/90 hover:text-white transition-colors"
                 >
                   News
                 </Link>
               </li>
               <li>
-                <Link 
-                  href="/about" 
+                <Link
+                  href="/about"
                   className="text-white/90 hover:text-white transition-colors"
                 >
                   About Us
                 </Link>
               </li>
               <li>
-                <Link 
-                  href="/faq" 
+                <Link
+                  href="/faq"
                   className="text-white/90 hover:text-white transition-colors"
                 >
                   FAQ
                 </Link>
               </li>
               <li>
-                <Link 
-                  href="/pricing" 
+                <Link
+                  href="/pricing"
                   className="text-white/90 hover:text-white transition-colors"
                 >
                   Pricing
                 </Link>
               </li>
               <li>
-                <Link 
-                  href="/contact" 
+                <Link
+                  href="/contact"
                   className="text-white/90 hover:text-white transition-colors"
                 >
                   Contact
@@ -123,16 +123,16 @@ export function Footer() {
             <h3 className="text-lg font-semibold mb-4">Legal & Support</h3>
             <ul className="space-y-2 text-sm">
               <li>
-                <Link 
-                  href="/legal/privacy" 
+                <Link
+                  href="/legal/privacy"
                   className="text-white/90 hover:text-white transition-colors"
                 >
                   Privacy Policy
                 </Link>
               </li>
               <li>
-                <Link 
-                  href="/legal/terms" 
+                <Link
+                  href="/legal/terms"
                   className="text-white/90 hover:text-white transition-colors"
                 >
                   Terms of Service

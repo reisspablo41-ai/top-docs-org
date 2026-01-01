@@ -143,8 +143,7 @@ export default function Home() {
             animate={{ opacity: 1 }}
             transition={{ duration: 0.6, delay: 0.3 }}
           >
-            Your #1 Source for Real & Fake Documents — Fast, Secure, and
-            Discreet
+            Premier Document Services for Global Travelers — Private, Secure, and Expedited
           </motion.p>
 
           {/* Main Headline */}
@@ -154,9 +153,9 @@ export default function Home() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.4 }}
           >
-            <span className="text-teal-600">Excellent Consulting</span>
+            <span className="text-teal-600">Streamline Your</span>
             <br />
-            Services for You
+            Global Movement
           </motion.h1>
 
           {/* CTA Button */}
@@ -193,10 +192,9 @@ export default function Home() {
               Our Services
             </h2>
             <p className="text-xl text-zinc-600 max-w-2xl mx-auto">
-              We produce real database-registered documents and premium replica
-              versions depending on your needs. No interviews, no long
-              processes, just reliable documents delivered quickly and
-              confidentially.
+              We deal in navigating the complex bureaucratic landscape and helping you get your essential documents.
+              Our efficient process guarantees precision, privacy, and expedited delivery,
+              eliminating unnecessary hurdles.
             </p>
           </motion.div>
           <motion.div
@@ -236,25 +234,24 @@ export default function Home() {
                   {/* Content Overlay - Always Visible */}
                   <div className="absolute bottom-0 left-0 right-0 p-6 bg-gradient-to-t from-black/80 to-transparent">
                     <h3 className="text-2xl font-semibold text-white mb-2">
-                      Buy Passport
+                      Passport Services
                     </h3>
                     <p className="text-white/90 text-sm">
-                      Order premium, database-registered passports produced with
-                      advanced printing technology.
+                      Secure high-quality, fully registered passports crafted with
+                      state-of-the-art printing tech.
                     </p>
                   </div>
                   {/* Hover Overlay - Teal600 with additional text */}
                   <div className="absolute inset-0 bg-teal-600/90 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-center items-center p-8 text-white">
                     <h3 className="text-3xl font-semibold mb-4 text-center">
-                      Buy Passport
+                      Passport Assistance
                     </h3>
                     <p className="text-lg mb-4 text-center">
-                      Order premium, database-registered passports produced with
-                      advanced printing technology. Our team delivers discreet,
-                      fast, and high-quality documents that pass all standard
-                      security checks. Whether you need a new identity or a
-                      replacement, we provide hassle-free processing with
-                      worldwide delivery
+                      Secure high-quality, fully registered passports crafted with
+                      state-of-the-art printing tech. Our agency provides discreet,
+                      rapid, and top-tier documents that meet all standard
+                      security requirements. Whether for a fresh start or a
+                      replacement, we offer smooth processing with global shipping.
                     </p>
                     <Button
                       variant="outline"
@@ -301,24 +298,24 @@ export default function Home() {
                   {/* Content Overlay - Always Visible */}
                   <div className="absolute bottom-0 left-0 right-0 p-6 bg-gradient-to-t from-black/80 to-transparent">
                     <h3 className="text-2xl font-semibold text-white mb-2">
-                      Buy Driver&apos;s License
+                      Driver&apos;s Licence Services
                     </h3>
                     <p className="text-white/90 text-sm">
-                      Get authentic-looking driver&qpos;s licenses that scan,
-                      swipe, and verify.
+                      Obtain verifiable driver&apos;s licenses that are designed to
+                      pass checks and scans.
                     </p>
                   </div>
                   {/* Hover Overlay - Teal600 with additional text */}
                   <div className="absolute inset-0 bg-teal-600/90 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-center items-center p-8 text-white">
                     <h3 className="text-3xl font-semibold mb-4 text-center">
-                      Buy Driver&apos;s License
+                      Driver&apos;s Licence Services
                     </h3>
                     <p className="text-lg mb-4 text-center">
-                      Get authentic-looking driver’s licenses that scan, swipe,
-                      and verify. Our licenses come with holograms, barcodes,
-                      and UV features identical to the real thing. We work with
-                      all regions and states, ensuring your document meets
-                      official standards.
+                      Obtain verifiable driver’s licenses that are designed to scan, swipe,
+                      and verify. Our licenses feature identical holograms, barcodes,
+                      and UV elements to the real thing. We cover
+                      all regions and states, ensuring your card meets
+                      official specifications.
                     </p>
 
                     <Button
@@ -366,24 +363,24 @@ export default function Home() {
                   {/* Content Overlay - Always Visible */}
                   <div className="absolute bottom-0 left-0 right-0 p-6 bg-gradient-to-t from-black/80 to-transparent">
                     <h3 className="text-2xl font-semibold text-white mb-2">
-                      Buy ID Cards
+                      ID Card Solutions
                     </h3>
                     <p className="text-white/90 text-sm">
-                      Order high-quality ID cards with full security elements,
-                      magnetic stripes, signatures, and custom details.
+                      Purchase top-tier ID cards featuring complete security layering,
+                      magnetic strips, and custom data.
                     </p>
                   </div>
                   {/* Hover Overlay - Teal600 with additional text */}
                   <div className="absolute inset-0 bg-teal-600/90 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-center items-center p-8 text-white">
                     <h3 className="text-3xl font-semibold mb-4 text-center">
-                      Buy ID Cards
+                      ID Card Solutions
                     </h3>
                     <p className="text-lg mb-4 text-center">
-                      Order high-quality ID cards with full security elements,
-                      magnetic stripes, signatures, and custom details. We
-                      guarantee unmatched precision, fast turnaround times, and
-                      24/7 support. Your privacy and anonymity are fully
-                      protected.
+                      Purchase top-tier ID cards featuring complete security layering,
+                      magnetic strips, signatures, and custom data. We
+                      guarantee exceptional precision, rapid turnaround, and
+                      round-the-clock support. Your anonymity and privacy are
+                      completely safeguarded.
                     </p>
 
                     <Button
@@ -432,25 +429,25 @@ export default function Home() {
                   {/* Content Overlay - Always Visible */}
                   <div className="absolute bottom-0 left-0 right-0 p-6 bg-gradient-to-t from-black/80 to-transparent">
                     <h3 className="text-2xl font-semibold text-white mb-2">
-                      Buy Residence Permit
+                      Residence Permit Assistance
                     </h3>
                     <p className="text-white/90 text-sm">
-                      Apply for high-quality Resident Cards with full security
-                      features and database registration.
+                      Request premium Resident Cards with total security
+                      integration and database registration.
                     </p>
                   </div>
                   {/* Hover Overlay - Teal600 with additional text */}
                   <div className="absolute inset-0 bg-teal-600/90 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-center items-center p-8 text-white">
                     <h3 className="text-3xl font-semibold mb-4 text-center">
-                      Buy Residence Permit
+                      Residence Permit Assistance
                     </h3>
                     <p className="text-lg mb-4 text-center">
-                      “Apply for high-quality Resident Cards with full security
-                      features and database registration. We process cards for
-                      multiple countries with biometric details, signature
-                      panels, and machine-readable zones. No interviews, no long
-                      waiting periods — your card is created and delivered
-                      discreetly with guaranteed authenticity.”
+                      “Request premium Resident Cards with total security
+                      integration and database registration. We process cards for
+                      various countries with biometric data, signature
+                      panels, and machine-readable zones. Skip the interviews and long
+                      waits — your card is crafted and shipped
+                      discreetly with guaranteed validity.”
                     </p>
 
                     <Button
@@ -496,29 +493,27 @@ export default function Home() {
                   {/* Content Overlay - Always Visible */}
                   <div className="absolute bottom-0 left-0 right-0 p-6 bg-gradient-to-t from-black/80 to-transparent">
                     <h3 className="text-2xl font-semibold text-white mb-2">
-                      Clear Australian Driving Record
+                      Clean Australian Driving History
                     </h3>
                     <p className="text-white/90 text-sm">
-                      “Need a clean Australian driving record? We offer fast and
-                      confidential record adjustment services. Traffic points,
-                      suspensions, fines, and previous violations can be removed
-                      from your file through our secure partner network. Your
-                      new record will appear clean in all standard checks and
-                      verifications.”
+                      “Require a spotless Australian driving history? We offer discreet
+                      and fast record correction services. Traffic points,
+                      suspensions, and past violations can be erased
+                      from your file via our secure network. Your
+                      updated record will show as clean in all standard checks.”
                     </p>
                   </div>
                   {/* Hover Overlay - Teal600 with additional text */}
                   <div className="absolute inset-0 bg-teal-600/90 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-center items-center p-8 text-white">
                     <h3 className="text-3xl font-semibold mb-4 text-center">
-                      Clear Australian Driving Record
+                      Clean Australian Driving History
                     </h3>
                     <p className="text-lg mb-4 text-center">
-                      “Need a clean Australian driving record? We offer fast and
-                      confidential record adjustment services. Traffic points,
-                      suspensions, fines, and previous violations can be removed
-                      from your file through our secure partner network. Your
-                      new record will appear clean in all standard checks and
-                      verifications.”
+                      “Require a spotless Australian driving history? We offer discreet
+                      and fast record correction services. Traffic points,
+                      suspensions, and past violations can be erased
+                      from your file via our secure network. Your
+                      updated record will show as clean in all standard checks.”
                     </p>
 
                     <Button
@@ -544,12 +539,11 @@ export default function Home() {
                 </CardHeader>
                 <CardContent>
                   <p>
-                    Preparation timelines typically range from 1–3 days, with
-                    Our processing timelines are fast, discreet, and tailored to
-                    your region. Most documents are prepared within 1–3 days,
-                    with delivery times depending on the destination and
-                    document category. We provide clear updates at every stage
-                    to keep your order fully on track.
+                    Preparation typically takes 1–3 days. Our processing is rapid,
+                    private, and customized to your location. Most documents are ready
+                    within roughly 72 hours, with shipping times varying by
+                    destination. We offer transparent updates at every step to
+                    ensure your order stays on schedule.
                   </p>
                   <ul className="mt-4 list-disc space-y-2 pl-6">
                     <li>
@@ -570,10 +564,10 @@ export default function Home() {
                 </CardHeader>
                 <CardContent>
                   <p>
-                    Your privacy is our top priority. All orders are handled
-                    using secure communication channels, encrypted workflows,
-                    and strict confidentiality protocols. We only request the
-                    minimum information required to process your file.
+                    We prioritize your privacy above all else. Every order is managed
+                    through protected communication channels, encrypted workflows,
+                    and rigorous confidentiality rules. We only ask for the
+                    essential information needed to handle your file.
                   </p>
                   <ul className="mt-4 list-disc space-y-2 pl-6">
                     <li>No unnecessary data collection</li>
@@ -699,13 +693,11 @@ export default function Home() {
         <div className="mx-auto max-w-6xl relative z-10">
           <motion.div variants={fadeInUp} className="text-center space-y-6">
             <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold max-w-4xl mx-auto leading-tight">
-              Our Mission is to Serve you and bring out the right solution at
-              every time
+              Facilitating Your Journey with Expert Solutions, Every Step of the Way
             </h2>
             <p className="text-lg md:text-xl text-white/90 max-w-2xl mx-auto">
-              We are committed to providing exceptional service, ensuring every
-              client receives personalized attention and the highest quality
-              solutions for their document needs.
+              Our goal is to deliver accessible, dependable, and private documentation services.
+              We are committed to demystifying complex procedures, ensuring you have the backing you need to proceed with assurance.
             </p>
             <motion.div
               variants={fadeInUp}
@@ -738,22 +730,22 @@ export default function Home() {
             <motion.div variants={fadeInUp} className="space-y-6">
               <div className="space-y-2">
                 <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-zinc-900">
-                  Our Long Term Service
+                  Our Long Term Commitment
                 </h2>
                 <h3 className="text-2xl sm:text-3xl md:text-4xl font-semibold text-teal-600">
-                  Building Experience & Give High Success Rates
+                  Decades of Experience & Highest Success Rates
                 </h3>
               </div>
               <p className="text-lg md:text-xl text-zinc-700 leading-relaxed">
-                Our prompt delivery services always make sure that your document
-                will reach to your doorstep in the least time. Serving you in
-                the best possible way is our top most priority.
+                Our expedited delivery network ensures your document arrives
+                at your door in record time. Serving your needs with excellence
+                is our primary focus.
               </p>
               <p className="text-base text-zinc-600 leading-relaxed">
-                With decades of experience, we&apos;ve refined our processes to
-                deliver exceptional results. Every document is handled with
-                precision, care, and attention to detail, ensuring you receive
-                exactly what you need, when you need it.
+                With years of expertise, we have optimized our methods to
+                achieve superior outcomes. Every file is managed with
+                exactness, care, and focus on detail, guaranteeing you get
+                precisely what you require, exactly when you need it.
               </p>
               <div className="pt-4">
                 <Link href="/how-to-order">
@@ -841,10 +833,10 @@ export default function Home() {
                   Great Team.
                 </h3>
                 <p className="text-zinc-700 leading-relaxed">
-                  Our experienced team of professionals brings decades of
-                  expertise to every project. We&apos;re committed to delivering
-                  exceptional service and building long-term trust with our
-                  clients through dedication and excellence.
+                  Our seasoned team of specialists brings years of
+                  know-how to every task. We are dedicated to providing
+                  outstanding support and establishing lasting confidence with our
+                  patrons through hard work and quality.
                 </p>
               </motion.div>
 
@@ -857,13 +849,13 @@ export default function Home() {
                 className="border border-zinc-200 rounded-xl p-6 hover:shadow-lg transition-shadow"
               >
                 <h3 className="text-2xl font-semibold text-zinc-900 mb-3">
-                  Better Security.
+                  Enhanced Security.
                 </h3>
                 <p className="text-zinc-700 leading-relaxed">
-                  Your privacy and security are our top priorities. We use
-                  industry-standard encryption and follow strict data protection
-                  protocols to ensure all your information remains confidential
-                  and secure throughout the entire process.
+                  Your anonymity and safety are our main concerns. We utilize
+                  industry-grade encryption and adhere to rigorous data shielding
+                  standards to guarantee all your data stays private
+                  and protected throughout the whole procedure.
                 </p>
               </motion.div>
 
@@ -876,13 +868,13 @@ export default function Home() {
                 className="border border-zinc-200 rounded-xl p-6 hover:shadow-lg transition-shadow"
               >
                 <h3 className="text-2xl font-semibold text-zinc-900 mb-3">
-                  Improved Client Service.
+                  Superior Client Support.
                 </h3>
                 <p className="text-zinc-700 leading-relaxed">
-                  We&apos;re available 24/7 to provide prompt, professional
-                  support. Our responsive team ensures you receive timely
-                  updates, clear communication, and personalized assistance
-                  tailored to your specific needs.
+                  We are on standby 24/7 to offer quick, expert
+                  assistance. Our agile team guarantees you get prompt
+                  notifications, transparent dialogue, and custom help
+                  fitted to your particular requirements.
                 </p>
               </motion.div>
             </div>
@@ -908,11 +900,11 @@ export default function Home() {
           <div className="grid gap-8 md:grid-cols-2 items-center">
             <motion.div variants={fadeInUp} className="space-y-4">
               <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white leading-tight">
-                We&apos;re Delivering the Best Document & Business Services
+                We Are Providing Top-Tier Document & Business Solutions
               </h2>
               <p className="text-lg text-white/90">
-                Experience professional, reliable, and secure document services
-                that exceed expectations.
+                Discover expert, dependable, and protected document solutions
+                that go beyond your expectations.
               </p>
             </motion.div>
             <motion.div
@@ -1208,62 +1200,53 @@ export default function Home() {
         </motion.section>
 
         <section>
-          <h2 className="text-2xl font-semibold">Detailed Overview</h2>
+          <h2 className="text-2xl font-semibold">Comprehensive Service Overview</h2>
           <div className="mt-6 grid gap-6 lg:grid-cols-2">
             <Card>
               <CardHeader>
-                <CardTitle>Passports</CardTitle>
+                <CardTitle>Global Passport Assistance</CardTitle>
               </CardHeader>
               <CardContent>
                 <p>
-                  Our network handles specialized passport-style documents
-                  crafted through low-visibility channels. Each request is
-                  processed quietly, with tailored formats and discreet
-                  coordination. You receive a polished, high-detail output
-                  without unnecessary questions or delays. Everything is kept
-                  off the spotlight.
+                  We facilitate the acquisition of essential travel documents through a secure and efficient network.
+                  Our process is designed to handle complex requirements with discretion, ensuring you receive
+                  compliant travel papers without administrative hassles.
                 </p>
               </CardContent>
             </Card>
             <Card>
               <CardHeader>
-                <CardTitle>Driver’s Licenses</CardTitle>
+                <CardTitle>Driving Permit Solutions</CardTitle>
               </CardHeader>
               <CardContent>
                 <p>
-                  We operate with access to multiple regional layout structures,
-                  delivering driver-license style documents built to mirror the
-                  look and feel of official formats. Details are handled
-                  silently, with fast turnarounds and encrypted communication.
-                  No noise, no interruptions — just the results you asked for.
+                  Navigating the requirements for international driving permits can be challenging.
+                  We provide expert guidance to obtain valid driving licenses that adhere to regional standards,
+                  ensuring your ability to drive legally and confidently across borders.
                 </p>
               </CardContent>
             </Card>
             <Card>
               <CardHeader>
-                <CardTitle>ID Cards</CardTitle>
+                <CardTitle>Identity Verification Support</CardTitle>
               </CardHeader>
               <CardContent>
                 <p>
-                  For clients who require identity-style materials, we prepare
-                  clean, high-grade card designs modeled after modern national
-                  and state standards. Each piece is assembled through low-trace
-                  methods and produced with precision. Your privacy stays intact
-                  from start to finish.
+                  In an era where identity is paramount, we offer robust solutions for obtaining national identity cards.
+                  Our services prioritize data integrity and format compliance, delivering documents that meet
+                  stringent verification standards.
                 </p>
               </CardContent>
             </Card>
             <Card>
               <CardHeader>
-                <CardTitle>Residence Permits</CardTitle>
+                <CardTitle>Residency Application Guidance</CardTitle>
               </CardHeader>
               <CardContent>
                 <p>
-                  Our permit-style documents cover several categories and
-                  formats. Whether temporary, long-term, or specialized layouts,
-                  everything is structured discreetly and delivered with exact
-                  detailing. Timelines remain quiet, controlled, and fully
-                  insulated from outside attention.
+                  Securing legal residence status requires precise documentation.
+                  We assist with the preparation and submission of residence permit applications,
+                  streamlining the path to legal stay for work, study, or family reunification.
                 </p>
               </CardContent>
             </Card>
@@ -1271,29 +1254,25 @@ export default function Home() {
           <div className="mt-10 grid gap-6 lg:grid-cols-2">
             <Card>
               <CardHeader>
-                <CardTitle>Security Practices</CardTitle>
+                <CardTitle>Data Protection Standards</CardTitle>
               </CardHeader>
               <CardContent>
                 <p>
-                  Every exchange is handled on strictly protected channels with
-                  minimal trace. We avoid unnecessary data, clear communication
-                  logs routinely, and isolate each request in its own encrypted
-                  process. Your involvement stays invisible, your information
-                  stays contained.
+                  We strictly adhere to advanced data security protocols.
+                  All client interactions and document processing are conducted through encrypted channels
+                  to ensure your personal information remains confidential and protected at all times.
                 </p>
               </CardContent>
             </Card>
             <Card>
               <CardHeader>
-                <CardTitle>Support & Availability</CardTitle>
+                <CardTitle>Client Support Excellence</CardTitle>
               </CardHeader>
               <CardContent>
                 <p>
-                  Assistance is available around the clock through secured
-                  lines. We guide you step by step — quietly, efficiently, and
-                  without interruption. Whether it’s updates, revisions, or
-                  clarifications, our team remains in the background ensuring
-                  everything moves smoothly.
+                  Our dedicated support team is available 24/7 to address your queries.
+                  We provide continuous updates and professional advice throughout your application process,
+                  ensuring a transparent and stress-free experience.
                 </p>
               </CardContent>
             </Card>
@@ -1601,6 +1580,6 @@ export default function Home() {
           </motion.div>
         </motion.section>
       </div>
-    </main>
+    </main >
   );
 }

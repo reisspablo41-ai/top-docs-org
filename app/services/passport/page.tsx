@@ -122,11 +122,10 @@ function PassportImageSlider() {
           <button
             key={index}
             onClick={() => goToSlide(index)}
-            className={`w-2 h-2 rounded-full transition-all ${
-              index === currentIndex
-                ? "bg-white w-8"
-                : "bg-white/50 hover:bg-white/75"
-            }`}
+            className={`w-2 h-2 rounded-full transition-all ${index === currentIndex
+              ? "bg-white w-8"
+              : "bg-white/50 hover:bg-white/75"
+              }`}
             aria-label={`Go to slide ${index + 1}`}
           />
         ))}
@@ -150,10 +149,10 @@ export default function PassportPage() {
         </h1>
         <div className="text-lg md:text-xl text-zinc-700 max-w-3xl mx-auto leading-relaxed space-y-4">
           <p>
-            Top Docs Org stands as a reliable source for premium passport documentation, crafted with meticulous care and exacting standards. Our expertise lies in producing passports that exceed industry benchmarks, guaranteeing precision, uniformity, and superior craftsmanship.
+            Top Docs Org delivers premium passport solutions, meticulously crafted with an eye for critical detail. We focus not just on compliance, but on providing documents that feel authentic to the touch and pass inspection.
           </p>
           <p>
-            Our service is designed for individuals who need a passport solution handled discreetly, efficiently, and without unnecessary delays. With a streamlined process and dedicated support, we make the experience simple and straightforward.
+            Designed for those who require speed and discretion, our service removes the hassle from bureaucratic procedures. We ensure a smooth, private experience from your initial request to final delivery.
           </p>
         </div>
         <div className="flex flex-wrap justify-center gap-4 pt-4">
@@ -199,8 +198,7 @@ export default function PassportPage() {
                 </div>
                 <h3 className="text-xl font-semibold text-zinc-900 mb-2">Top Quality</h3>
                 <p className="text-zinc-700">
-                  Premium quality passports created with attention to detail and 
-                  professional standards.
+                  Superior manufacturing standards ensure our passports are indistinguishable from official government issues.
                 </p>
               </CardContent>
             </Card>
@@ -213,8 +211,7 @@ export default function PassportPage() {
                 </div>
                 <h3 className="text-xl font-semibold text-zinc-900 mb-2">Holograms</h3>
                 <p className="text-zinc-700">
-                  Authentic holograms and security features that meet international 
-                  standards and requirements.
+                  We implement genuine kinegrams and holographic overlays that react correctly under light.
                 </p>
               </CardContent>
             </Card>
@@ -227,8 +224,7 @@ export default function PassportPage() {
                 </div>
                 <h3 className="text-xl font-semibold text-zinc-900 mb-2">Samples</h3>
                 <p className="text-zinc-700">
-                  View samples before final production to ensure everything meets 
-                  your expectations.
+                  Review high-resolution drafts or previous works to confirm quality before proceeding.
                 </p>
               </CardContent>
             </Card>
@@ -241,8 +237,7 @@ export default function PassportPage() {
                 </div>
                 <h3 className="text-xl font-semibold text-zinc-900 mb-2">Verified</h3>
                 <p className="text-zinc-700">
-                  100% verified passports with all necessary details and proper 
-                  database registration.
+                  Files are registered in the appropriate databases, ensuring validity for travel and ID checks.
                 </p>
               </CardContent>
             </Card>
@@ -262,72 +257,72 @@ export default function PassportPage() {
           <CardContent className="pt-6 space-y-6">
             <div>
               <h2 className="text-2xl font-semibold text-zinc-900 mb-4">
-                Professional Passport Services – Secure, Sophisticated, Trusted
+                Elite Passport Services – Accurate, Compliant, Private
               </h2>
               <p className="text-lg text-zinc-700 leading-relaxed mb-4">
-                Top Docs Org delivers expertly manufactured passport documents engineered with rigorous attention to detail, systematic organization, and cutting-edge security features. Every passport we create embodies the sophistication and technical excellence demanded by contemporary global travel documentation standards.
+                Top Docs Org specializes in producing passports that mirror the complexity and authority of government-issued booklets. We understand the nuances of modern security features, from paper quality to digital encoding.
               </p>
               <p className="text-lg text-zinc-700 leading-relaxed mb-4">
-                Our process focuses on accuracy, consistency, and visual integrity. Every passport is carefully prepared to ensure a clean, balanced layout and a professional finish, delivering a result that meets high expectations for quality and sophistication.
+                Our team prioritizes visual and structural integrity. Every page, perforation, and print layer is executed to create a flawless document that withstands scrutiny.
               </p>
               <p className="text-lg text-zinc-700 leading-relaxed">
-                Discretion and attention to detail remain central throughout the entire process.
+                We maintain strict confidentiality protocols, ensuring your personal data is handled securely throughout production.
               </p>
             </div>
 
             <div className="border-t border-zinc-200 pt-6">
               <h3 className="text-xl font-semibold text-zinc-900 mb-4">
-                Advanced Security & Document Features
+                Integrated Security Technologies
               </h3>
               <p className="text-lg text-zinc-700 leading-relaxed mb-4">
-                Our passports incorporate multiple layers of document security design commonly associated with official travel documents worldwide. These elements contribute to a refined, credible, and well-structured appearance.
+                Modern passports are complex security instruments. We incorporate essential anti-counterfeit measures to ensure your document is credible and functional.
               </p>
               <p className="text-lg text-zinc-700 leading-relaxed mb-4">
-                Key features include:
+                Our features include:
               </p>
               <ul className="list-disc space-y-3 pl-6 text-zinc-700">
                 <li>
-                  <strong>Machine-Readable Zone (MRZ)</strong>
+                  <strong>ICAO Compliant MRZ</strong>
                   <br />
-                  <span className="text-base">Structured formatting consistent with international passport layouts</span>
+                  <span className="text-base">Correctly calculated checksums for machine readability.</span>
                 </li>
                 <li>
-                  <strong>Security Printing Elements</strong>
+                  <strong>Intricate Backgrounds</strong>
                   <br />
-                  <span className="text-base">Fine-line patterns, background designs, and layered printing techniques</span>
+                  <span className="text-base">Guilloche patterns and micro-printing that resist reproduction.</span>
                 </li>
                 <li>
-                  <strong>Micro-Detail Text & Graphic Elements</strong>
+                  <strong>UV & IR Elements</strong>
                   <br />
-                  <span className="text-base">Precision details integrated into the document design for enhanced complexity</span>
+                  <span className="text-base">Invisible inks that react appropriately to scanner lights.</span>
                 </li>
                 <li>
-                  <strong>Photograph Integration</strong>
+                  <strong>Biometric Data Encoding</strong>
                   <br />
-                  <span className="text-base">Clean image placement aligned with the document&apos;s overall structure</span>
+                  <span className="text-base">Chip integration matching your physical details.</span>
                 </li>
                 <li>
-                  <strong>Advanced Overlay & Background Design</strong>
+                  <strong>Polycarbonate Data Pages</strong>
                   <br />
-                  <span className="text-base">Multi-layer visual composition to add depth and sophistication</span>
+                  <span className="text-base">Durable, laser-engraved pages for premium authenticity.</span>
                 </li>
                 <li>
-                  <strong>Professional Numbering & Data Formatting</strong>
+                  <strong>Standardized Fonts</strong>
                   <br />
-                  <span className="text-base">Consistent alignment and spacing across all personal data fields</span>
+                  <span className="text-base">Exact typeface usage per country regulations.</span>
                 </li>
               </ul>
               <p className="text-lg text-zinc-700 leading-relaxed mt-4">
-                Together, these elements create a document that reflects modern passport design standards and a high level of production quality.
+                Combining these elements results in a passport that is not just a document, but a functional tool for global travel.
               </p>
             </div>
 
             <div className="border-t border-zinc-200 pt-6">
               <h3 className="text-xl font-semibold text-zinc-900 mb-4">
-                Confidentiality & Handling
+                Private Handling
               </h3>
               <p className="text-lg text-zinc-700 leading-relaxed">
-                All information is treated with discretion and care. Our internal process prioritizes controlled handling, privacy, and consistency from start to completion.
+                Your privacy is paramount. We utilize end-to-end encryption for data transfer and securely purge your information post-delivery.
               </p>
             </div>
           </CardContent>
@@ -348,39 +343,39 @@ export default function PassportPage() {
         <Card>
           <CardContent className="pt-6">
             <p className="text-lg text-zinc-700 leading-relaxed mb-6">
-              Our workflow is structured to be straightforward, confidential, and streamlined. All operations are conducted with professional expertise throughout the entire journey, maintaining exactness and uniformity at each phase.
+              We have simplified obtaining a passport into four easy steps, designed to be executed remotely and confidentially.
             </p>
             <div className="space-y-6">
               <div>
                 <h3 className="text-xl font-semibold text-zinc-900 mb-2">
-                  Step 1 – Choose Your Destination Country
+                  Step 1 – Choose Your Jurisdiction
                 </h3>
                 <p className="text-zinc-700 leading-relaxed">
-                  Select the nation and passport variant that aligns with your specific travel needs and preferences.
+                  Select the country and specific passport type you require.
                 </p>
               </div>
               <div>
                 <h3 className="text-xl font-semibold text-zinc-900 mb-2">
-                  Step 2 – Provide Your Information
+                  Step 2 – Secure Data Submission
                 </h3>
                 <p className="text-zinc-700 leading-relaxed">
-                  Submit your essential personal data through secure channels. Our specialists examine every piece of information meticulously to guarantee correct formatting and proper arrangement.
+                  Send us the required biometric data and photo via our encrypted portal. We verify everything for optimal formatting.
                 </p>
               </div>
               <div>
                 <h3 className="text-xl font-semibold text-zinc-900 mb-2">
-                  Step 3 – Manufacturing & Verification
+                  Step 3 – Fabrication & Registration
                 </h3>
                 <p className="text-zinc-700 leading-relaxed">
-                  Every passport undergoes a systematic creation workflow featuring numerous validation stages to confirm exactness, design correctness, and comprehensive excellence.
+                  Our technicians produce the physical booklet while our partners handle the database entry process.
                 </p>
               </div>
               <div>
                 <h3 className="text-xl font-semibold text-zinc-900 mb-2">
-                  Step 4 – Finalization
+                  Step 4 – Discreet Delivery
                 </h3>
                 <p className="text-zinc-700 leading-relaxed">
-                  Upon approval, your passport is finalized in accordance with your chosen specifications and agreed delivery schedule.
+                  Your new passport is shipped in unmarked packaging to your designated address.
                 </p>
               </div>
             </div>
@@ -402,19 +397,19 @@ export default function PassportPage() {
         <Card>
           <CardContent className="pt-6">
             <p className="text-lg text-zinc-700 leading-relaxed mb-6">
-              Each passport receives treatment emphasizing exactness, systematic organization, and polished appearance. We adhere to a structured methodology guaranteeing every travel document meets contemporary design and protection requirements.
+              A passport is only as good as its security features. We rigorously test every document against official standards to guarantee it is scan-ready.
             </p>
             <p className="text-lg text-zinc-700 leading-relaxed mb-4">
-              Primary emphasis points encompass:
+              Our quality assurance covers:
             </p>
             <ul className="list-disc space-y-3 pl-6 text-zinc-700 mb-4">
-              <li>Uniform information formatting and positioning</li>
-              <li>Sophisticated passport structure and backdrop patterns</li>
-              <li>Incorporation of numerous protection-focused design components</li>
-              <li>Thorough examination prior to ultimate delivery</li>
+              <li>Scan verification of MRZ and chips</li>
+              <li>UV light testing for hidden security ink</li>
+              <li>Hologram reflection and durability checks</li>
+              <li>Database entry confirmation</li>
             </ul>
             <p className="text-lg text-zinc-700 leading-relaxed">
-              This methodology guarantees an elegant and polished outcome.
+              This meticulous process ensures you receive a document that works.
             </p>
           </CardContent>
         </Card>
@@ -441,15 +436,15 @@ export default function PassportPage() {
             </p>
             <ul className="list-disc space-y-3 pl-6 text-zinc-700">
               <li>
-                <strong>Citizenship:</strong> Be a citizen of the country for which 
+                <strong>Citizenship:</strong> Be a citizen of the country for which
                 you are applying for a passport
               </li>
               <li>
-                <strong>Age Requirement:</strong> Be at least 16 years old (or have 
+                <strong>Age Requirement:</strong> Be at least 16 years old (or have
                 parental consent if younger)
               </li>
               <li>
-                <strong>Valid Identification:</strong> Have a valid form of 
+                <strong>Valid Identification:</strong> Have a valid form of
                 identification, such as a driver&apos;s license or birth certificate
               </li>
             </ul>
@@ -469,7 +464,7 @@ export default function PassportPage() {
           Why Choose Us to Buy a Passport?
         </motion.h2>
         <p className="text-center text-lg text-zinc-700 max-w-3xl mx-auto">
-          Top Docs Org is always ready to deliver them to you!
+          Top Docs Org is always here to provide them to you!
         </p>
         <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-4">
           <motion.div variants={fadeInUp}>
@@ -479,9 +474,8 @@ export default function PassportPage() {
               </CardHeader>
               <CardContent>
                 <p className="text-zinc-700">
-                  Here at our agency, we have 100% verified passports that are 
-                  created with all the necessary details. You can use that passport 
-                  without worry and travel to countries you like.
+                  Our agency guarantees fully verified passports. We generate valid data entries,
+                  allowing you to travel freely and pass border checks with confidence.
                 </p>
               </CardContent>
             </Card>
@@ -493,9 +487,8 @@ export default function PassportPage() {
               </CardHeader>
               <CardContent>
                 <p className="text-zinc-700">
-                  Your payment details are completely safe and secured with our agency. 
-                  We never disclose our client&apos;s details to anyone and keep all 
-                  their data securely.
+                  We use anonymous payment methods to protect your financial identity.
+                  Transaction details are never stored, ensuring total purchase privacy.
                 </p>
               </CardContent>
             </Card>
@@ -507,9 +500,8 @@ export default function PassportPage() {
               </CardHeader>
               <CardContent>
                 <p className="text-zinc-700">
-                  We are not just committed to delivering the passports to a specific 
-                  country. No matter where you live, your passport will be delivered 
-                  shortly up there.
+                  We ship globally using private courier services. Your package is stealth-wrapped,
+                  bypassing customs scrutiny to reach you anywhere in the world.
                 </p>
               </CardContent>
             </Card>
@@ -521,9 +513,8 @@ export default function PassportPage() {
               </CardHeader>
               <CardContent>
                 <p className="text-zinc-700">
-                  Our professional team members provide complete support to the clients 
-                  and help them with their queries related to passports and other documents. 
-                  We are now just a call or text away from you!
+                  Our dedicated support staff is available 24/7 to guide you. From application to unboxing,
+                  we are always here to answer your questions.
                 </p>
               </CardContent>
             </Card>
@@ -544,38 +535,38 @@ export default function PassportPage() {
           <CardContent className="pt-6 space-y-6">
             <div>
               <h2 className="text-2xl font-semibold text-zinc-900 mb-4">
-                Buy Fake and Real Passports Online
+                Buy Real & Replica Passports Online
               </h2>
               <p className="text-lg text-zinc-700 leading-relaxed mb-4">
-                International mobility today requires documents that reflect accuracy, structure, and modern design standards. Our service is built to support individuals seeking professionally prepared passport documents that align with contemporary expectations.
+                In today&apos;s globalized world, having a secondary passport is a powerful assets. Whether for privacy, travel freedom, or emergency backup, our service provides the solution you need. We offer both real, database-registered passports and high-quality novelty replicas.
               </p>
               <p className="text-lg text-zinc-700 leading-relaxed mb-4">
-                We understand that consistency, presentation, and attention to detail matter. That is why every request is handled with a focus on precision, discretion, and quality control, ensuring a refined and reliable outcome.
+                Our registered passports are fully functional for international travel, effectively giving you dual citizenship. Our replica options are perfect for verification purposes or camouflage.
               </p>
               <p className="text-lg text-zinc-700 leading-relaxed">
-                Our approach is client-focused and results-driven, providing a smooth and controlled experience from start to completion.
+                We handle every order with the seriousness it deserves, guaranteeing a product that opens doors.
               </p>
             </div>
 
             <div className="border-t border-zinc-200 pt-6">
               <h3 className="text-xl font-semibold text-zinc-900 mb-4">
-                Why Clients Choose Our Service
+                Why Clients Trust Top Docs Org
               </h3>
               <p className="text-lg text-zinc-700 leading-relaxed mb-4">
-                Clients rely on our service because of our commitment to quality, confidentiality, and sophisticated document preparation.
+                We have built a reputation on reliability and results. Our clients choose us because we deliver what we promise: valid documents without the red tape.
               </p>
               <p className="text-lg text-zinc-700 leading-relaxed mb-4">
-                Key reasons include:
+                Our advantages:
               </p>
               <ul className="list-disc space-y-3 pl-6 text-zinc-700 mb-4">
-                <li>Professionally structured passport layouts</li>
-                <li>Advanced security-oriented design elements</li>
-                <li>Controlled preparation and review process</li>
-                <li>Discreet handling of all client information</li>
-                <li>Consistent results across supported countries</li>
+                <li>Direct database registration (no proxies)</li>
+                <li>Holographic and UV implementation</li>
+                <li>Zero-trace delivery records</li>
+                <li>Support for over 50+ jurisdictions</li>
+                <li>No background checks required</li>
               </ul>
               <p className="text-lg text-zinc-700 leading-relaxed">
-                Each document is prepared to reflect the level of detail expected of modern international passports.
+                We are the definitive source for expedited passport acquisition.
               </p>
             </div>
 
@@ -603,8 +594,7 @@ export default function PassportPage() {
           Ready to Get Your Passport?
         </h2>
         <p className="text-lg text-white/90 mb-8 max-w-2xl mx-auto">
-          Contact our agency today and expect the delivery of your passport at the 
-          soonest. We are here to help you!
+          Don&apos;t let bureaucracy hold you back. Contact us now to secure your new passport and enjoy the freedom of travel.
         </p>
         <div className="flex flex-wrap justify-center gap-4">
           <Link href="/contact">
@@ -653,6 +643,6 @@ export default function PassportPage() {
           </motion.div>
         </motion.div>
       </motion.section>
-    </main>
+    </main >
   );
 }

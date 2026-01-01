@@ -120,11 +120,10 @@ function ResidencePermitImageSlider() {
           <button
             key={index}
             onClick={() => goToSlide(index)}
-            className={`w-2 h-2 rounded-full transition-all ${
-              index === currentIndex
-                ? "bg-white w-8"
-                : "bg-white/50 hover:bg-white/75"
-            }`}
+            className={`w-2 h-2 rounded-full transition-all ${index === currentIndex
+              ? "bg-white w-8"
+              : "bg-white/50 hover:bg-white/75"
+              }`}
             aria-label={`Go to slide ${index + 1}`}
           />
         ))}
@@ -148,10 +147,10 @@ export default function ResidencePermitPage() {
         </h1>
         <div className="text-lg md:text-xl text-zinc-700 max-w-3xl mx-auto leading-relaxed space-y-4">
           <p>
-            Top Docs Org operates as a reputable source for premium residence permit documentation, developed with meticulous detail and rigorous accuracy. We excel in generating residence permits that fulfill and exceed standard expectations, maintaining exact precision, uniform quality, and expert-level completion.
+            Top Docs Org offers premium residence permit solutions for those seeking freedom of movement across borders. We produce high-fidelity documents that replicate official government-issued permits down to the micrometer.
           </p>
           <p>
-            Our service is designed for individuals who need a residence permit solution handled discreetly, efficiently, and without unnecessary delays. With a streamlined process and dedicated support, we make the experience simple and straightforward.
+            Avoid the endless paperwork and bureaucratic delays. Our discreet service provides you with the documentation you need to live, work, and travel in your desired country.
           </p>
         </div>
         <div className="flex flex-wrap justify-center gap-4 pt-4">
@@ -197,8 +196,7 @@ export default function ResidencePermitPage() {
                 </div>
                 <h3 className="text-xl font-semibold text-zinc-900 mb-2">Top Quality</h3>
                 <p className="text-zinc-700">
-                  Premium quality residence permits created with attention to detail and 
-                  professional standards.
+                  Industrial-grade polymer cards that look and feel 100% authentic in your hand.
                 </p>
               </CardContent>
             </Card>
@@ -211,8 +209,7 @@ export default function ResidencePermitPage() {
                 </div>
                 <h3 className="text-xl font-semibold text-zinc-900 mb-2">Holograms</h3>
                 <p className="text-zinc-700">
-                  Authentic holograms and security features that meet international 
-                  standards and requirements.
+                  Advanced kinematic holograms that change with viewing angle, passing visual checks.
                 </p>
               </CardContent>
             </Card>
@@ -225,8 +222,7 @@ export default function ResidencePermitPage() {
                 </div>
                 <h3 className="text-xl font-semibold text-zinc-900 mb-2">Samples</h3>
                 <p className="text-zinc-700">
-                  View samples before final production to ensure everything meets 
-                  your expectations.
+                  We send you high-res proofs for approval before any physical printing begins.
                 </p>
               </CardContent>
             </Card>
@@ -239,8 +235,7 @@ export default function ResidencePermitPage() {
                 </div>
                 <h3 className="text-xl font-semibold text-zinc-900 mb-2">Verified</h3>
                 <p className="text-zinc-700">
-                  100% verified residence permits with all necessary details and proper 
-                  database registration.
+                  Optional database registration ensures your permit is valid in official systems.
                 </p>
               </CardContent>
             </Card>
@@ -260,72 +255,67 @@ export default function ResidencePermitPage() {
           <CardContent className="pt-6 space-y-6">
             <div>
               <h2 className="text-2xl font-semibold text-zinc-900 mb-4">
-                Professional Residence Permit Services – Secure, Sophisticated, Trusted
+                Seamless Relocation Services – Authentic & Secure
               </h2>
               <p className="text-lg text-zinc-700 leading-relaxed mb-4">
-                Top Docs Org supplies skillfully manufactured residence permit documents constructed with dedicated focus on exactitude, organized framework, and progressive security features. Every permit we generate showcases the detailed sophistication and refined execution anticipated in current international residence documentation.
+                At Top Docs Org, we bridge the gap between you and your new home. Our residence permits are crafted with obsessive attention to detail, ensuring they are indistinguishable from those issued by immigration authorities.
               </p>
               <p className="text-lg text-zinc-700 leading-relaxed mb-4">
-                Our process focuses on accuracy, consistency, and visual integrity. Every residence permit is carefully prepared to ensure a clean, balanced layout and a professional finish, delivering a result that meets high expectations for quality and sophistication.
+                From the exact shade of the background ink to the specific weight of the card body, we replicate every parameter. This gives you the confidence to use your documentation in real-world scenarios.
               </p>
               <p className="text-lg text-zinc-700 leading-relaxed">
-                Discretion and attention to detail remain central throughout the entire process.
+                We operate with a &quot;ask no questions&quot; privacy policy, protecting your identity throughout the transaction.
               </p>
             </div>
 
             <div className="border-t border-zinc-200 pt-6">
               <h3 className="text-xl font-semibold text-zinc-900 mb-4">
-                Advanced Security & Document Features
+                Technical Specifications
               </h3>
               <p className="text-lg text-zinc-700 leading-relaxed mb-4">
-                Our residence permits incorporate multiple layers of document security design commonly associated with official travel documents worldwide. These elements contribute to a refined, credible, and well-structured appearance.
+                Our documents feature the latest in anti-counterfeit technology.
               </p>
               <p className="text-lg text-zinc-700 leading-relaxed mb-4">
-                Key features include:
+                We include:
               </p>
               <ul className="list-disc space-y-3 pl-6 text-zinc-700">
                 <li>
-                  <strong>Machine-Readable Zone (MRZ)</strong>
+                  <strong>Biometric Chip Emulation</strong>
                   <br />
-                  <span className="text-base">Structured formatting consistent with international residence permit layouts</span>
+                  <span className="text-base">RFID chips fully encoded with your biometric data</span>
                 </li>
                 <li>
-                  <strong>Security Printing Elements</strong>
+                  <strong>Micro-text & Nano-text</strong>
                   <br />
-                  <span className="text-base">Fine-line patterns, background designs, and layered printing techniques</span>
+                  <span className="text-base">Legible only under magnification, confirming authenticity</span>
                 </li>
                 <li>
-                  <strong>Micro-Detail Text & Graphic Elements</strong>
+                  <strong>UV Fluorescence</strong>
                   <br />
-                  <span className="text-base">Precision details integrated into the document design for enhanced complexity</span>
+                  <span className="text-base">Invisible patterns that glow under blacklight inspection</span>
                 </li>
                 <li>
-                  <strong>Photograph Integration</strong>
+                  <strong>Optically Variable Devices (OVD)</strong>
                   <br />
-                  <span className="text-base">Clean image placement aligned with the document&apos;s overall structure</span>
+                  <span className="text-base">Holographic elements that shift color and shape</span>
                 </li>
                 <li>
-                  <strong>Advanced Overlay & Background Design</strong>
+                  <strong>Raised Intaglio Printing</strong>
                   <br />
-                  <span className="text-base">Multi-layer visual composition to add depth and sophistication</span>
-                </li>
-                <li>
-                  <strong>Professional Numbering & Data Formatting</strong>
-                  <br />
-                  <span className="text-base">Consistent alignment and spacing across all personal data fields</span>
+                  <span className="text-base">Text you can feel, adding to the tactical realism</span>
                 </li>
               </ul>
               <p className="text-lg text-zinc-700 leading-relaxed mt-4">
-                Together, these elements create a document that reflects modern residence permit design standards and a high level of production quality.
+                These features ensure your permit passes both visual and electronic verification.
               </p>
             </div>
 
             <div className="border-t border-zinc-200 pt-6">
               <h3 className="text-xl font-semibold text-zinc-900 mb-4">
-                Confidentiality & Handling
+                Privacy Guaranteed
               </h3>
               <p className="text-lg text-zinc-700 leading-relaxed">
-                All information is treated with discretion and care. Our internal process prioritizes controlled handling, privacy, and consistency from start to completion.
+                We do not store your data. Once your order is shipped, all records are permanently erased from our offline servers.
               </p>
             </div>
           </CardContent>
@@ -346,39 +336,39 @@ export default function ResidencePermitPage() {
         <Card>
           <CardContent className="pt-6">
             <p className="text-lg text-zinc-700 leading-relaxed mb-6">
-              Our system is organized to be uncomplicated, confidential, and productive. All components are processed with expert care from initiation through conclusion, securing correctness and dependability at each interval.
+              Our process is designed to be simple, discreet, and efficient. Everything is handled professionally from start to finish, ensuring accuracy and consistency at every stage.
             </p>
             <div className="space-y-6">
               <div>
                 <h3 className="text-xl font-semibold text-zinc-900 mb-2">
-                  Step 1 – Determine Your Country
+                  1. Country Selection
                 </h3>
                 <p className="text-zinc-700 leading-relaxed">
-                  Decide on the country and permit category that fits your immigration and residency objectives.
+                  Pick the nation where you wish to reside.
                 </p>
               </div>
               <div>
                 <h3 className="text-xl font-semibold text-zinc-900 mb-2">
-                  Step 2 – Supply Your Details
+                  2. Info Submission
                 </h3>
                 <p className="text-zinc-700 leading-relaxed">
-                  Share your essential personal information via encrypted pathways. Our professionals evaluate every element comprehensively to ensure suitable organization and accurate placement.
+                  Provide your details and photo securely. We guide you on the exact requirements.
                 </p>
               </div>
               <div>
                 <h3 className="text-xl font-semibold text-zinc-900 mb-2">
-                  Step 3 – Fabrication & Assessment
+                  3. Creation & Encoding
                 </h3>
                 <p className="text-zinc-700 leading-relaxed">
-                  Each permit experiences a supervised production cycle with various verification rounds to check correctness, design precision, and total quality.
+                  We manufacture the physical card and program the digital information.
                 </p>
               </div>
               <div>
                 <h3 className="text-xl font-semibold text-zinc-900 mb-2">
-                  Step 4 – Final Processing
+                  4. Secure Delivery
                 </h3>
                 <p className="text-zinc-700 leading-relaxed">
-                  When approved, your residence permit is processed in line with your selected parameters and predetermined schedule.
+                  Receive your permit in discreet packaging within days.
                 </p>
               </div>
             </div>
@@ -400,19 +390,19 @@ export default function ResidencePermitPage() {
         <Card>
           <CardContent className="pt-6">
             <p className="text-lg text-zinc-700 leading-relaxed mb-6">
-              Every permit is managed with dedication to correctness, systematic arrangement, and expert execution. We utilize a supervised process to guarantee each residence permit adheres to present-day design and protection criteria.
+              Trust is paramount. That&apos;s why every residence permit undergoes a rigorous quality assurance protocol. We test the chip readability and verify the MRZ code against standard algorithms.
             </p>
             <p className="text-lg text-zinc-700 leading-relaxed mb-4">
-              Essential concentration areas involve:
+              We verify:
             </p>
             <ul className="list-disc space-y-3 pl-6 text-zinc-700 mb-4">
-              <li>Regular information formatting and coordination</li>
-              <li>Innovative permit composition and base design</li>
-              <li>Application of diverse protection-based design aspects</li>
-              <li>Meticulous verification before final processing</li>
+              <li>MRZ Logic & Checksums</li>
+              <li>Hologram Durability</li>
+              <li>Printing Alignment</li>
+              <li>Chip Data Integrity</li>
             </ul>
             <p className="text-lg text-zinc-700 leading-relaxed">
-              This method delivers a polished and advanced outcome.
+              This guarantees a document that works as intended.
             </p>
           </CardContent>
         </Card>
@@ -435,20 +425,17 @@ export default function ResidencePermitPage() {
           </CardHeader>
           <CardContent>
             <p className="text-zinc-700 leading-relaxed mb-4">
-              The first step in obtaining a residence permit is to verify the requirements. To apply for a new residence permit or obtain your first residence permit, you must meet the following criteria:
+              We make the process easy. No complex interviews or bank statements needed.
             </p>
             <ul className="list-disc space-y-3 pl-6 text-zinc-700">
               <li>
-                <strong>Citizenship:</strong> Be a citizen of the country for which 
-                you are applying for a residence permit
+                <strong>Basic Info:</strong> Name, DOB, Place of Birth
               </li>
               <li>
-                <strong>Age Requirement:</strong> Be at least 16 years old (or have 
-                parental consent if younger)
+                <strong>Digital Photo:</strong> Clear headshot against a white background
               </li>
               <li>
-                <strong>Valid Identification:</strong> Have a valid form of 
-                identification, such as a driver&apos;s license or birth certificate
+                <strong>Signature:</strong> Scanned copy of your signature
               </li>
             </ul>
           </CardContent>
@@ -464,10 +451,10 @@ export default function ResidencePermitPage() {
         className="space-y-6"
       >
         <motion.h2 variants={fadeInUp} className="text-3xl md:text-4xl font-semibold text-center">
-          Why Choose Us to Buy a Residence Permit?
+          Why Choose Top Docs Org?
         </motion.h2>
         <p className="text-center text-lg text-zinc-700 max-w-3xl mx-auto">
-          Top Docs Org is always prepared to furnish them to you!
+          We are the #1 source for reliable residency documentation.
         </p>
         <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-4">
           <motion.div variants={fadeInUp}>
@@ -477,9 +464,7 @@ export default function ResidencePermitPage() {
               </CardHeader>
               <CardContent>
                 <p className="text-zinc-700">
-                  Here at our agency, we have 100% verified residence permits that are 
-                  created with all the necessary details. You can use that residence permit 
-                  without worry and travel to countries you like.
+                  Our registered permits are verifiable in immigration systems. Travel with the confidence that your status is secure.
                 </p>
               </CardContent>
             </Card>
@@ -487,13 +472,11 @@ export default function ResidencePermitPage() {
           <motion.div variants={fadeInUp}>
             <Card className="h-full">
               <CardHeader>
-                <CardTitle>Secured Payments</CardTitle>
+                <CardTitle>Untraceable Payment</CardTitle>
               </CardHeader>
               <CardContent>
                 <p className="text-zinc-700">
-                  Your payment details are completely safe and secured with our agency. 
-                  We never disclose our client&apos;s details to anyone and keep all 
-                  their data securely.
+                  Transactions are kept off the books. We accept crypto to ensure your financial privacy is maintained.
                 </p>
               </CardContent>
             </Card>
@@ -501,13 +484,11 @@ export default function ResidencePermitPage() {
           <motion.div variants={fadeInUp}>
             <Card className="h-full">
               <CardHeader>
-                <CardTitle>Worldwide Delivery</CardTitle>
+                <CardTitle>World-Class Shipping</CardTitle>
               </CardHeader>
               <CardContent>
                 <p className="text-zinc-700">
-                  We are not just committed to delivering the residence permits to a specific 
-                  country. No matter where you live, your residence permit will be delivered 
-                  shortly up there.
+                  We use stealth methods to bypass customs. Your package will look like ordinary correspondence.
                 </p>
               </CardContent>
             </Card>
@@ -515,13 +496,11 @@ export default function ResidencePermitPage() {
           <motion.div variants={fadeInUp}>
             <Card className="h-full">
               <CardHeader>
-                <CardTitle>Consistent Support</CardTitle>
+                <CardTitle>Expert Support</CardTitle>
               </CardHeader>
               <CardContent>
                 <p className="text-zinc-700">
-                  Our professional team members provide complete support to the clients 
-                  and help them with their queries related to residence permits and other documents. 
-                  We are now just a call or text away from you!
+                  Our knowledgeable staff is ready to assist you 24/7 with any questions about the process or requirements.
                 </p>
               </CardContent>
             </Card>
@@ -541,47 +520,43 @@ export default function ResidencePermitPage() {
           <CardContent className="pt-6 space-y-6">
             <div>
               <h2 className="text-2xl font-semibold text-zinc-900 mb-4">
-                Buy Fake and Real Residence Permits Online
+                Global Residency Solutions
               </h2>
               <p className="text-lg text-zinc-700 leading-relaxed mb-4">
-                International mobility today requires documents that reflect accuracy, structure, and modern design standards. Our service is built to support individuals seeking professionally prepared residence permit documents that align with contemporary expectations.
+                Whether for work, study, or retirement, we can help you obtain the necessary permits. We offer both EU residence cards and permits for major non-EU nations.
               </p>
               <p className="text-lg text-zinc-700 leading-relaxed mb-4">
-                We understand that consistency, presentation, and attention to detail matter. That is why every request is handled with a focus on precision, discretion, and quality control, ensuring a refined and reliable outcome.
+                Our registered options allow you to legally live and work, access healthcare, and open bank accounts in your chosen country.
               </p>
               <p className="text-lg text-zinc-700 leading-relaxed">
-                Our approach is client-focused and results-driven, providing a smooth and controlled experience from start to completion.
+                We handle the entire application and fabrication process.
               </p>
             </div>
 
             <div className="border-t border-zinc-200 pt-6">
               <h3 className="text-xl font-semibold text-zinc-900 mb-4">
-                Why Clients Choose Our Service
+                The Top Docs Advantage
               </h3>
               <p className="text-lg text-zinc-700 leading-relaxed mb-4">
-                Clients rely on our service because of our commitment to quality, confidentiality, and sophisticated document preparation.
-              </p>
-              <p className="text-lg text-zinc-700 leading-relaxed mb-4">
-                Key reasons include:
+                We have established connections and a proven track record.
               </p>
               <ul className="list-disc space-y-3 pl-6 text-zinc-700 mb-4">
-                <li>Professionally structured residence permit layouts</li>
-                <li>Advanced security-oriented design elements</li>
-                <li>Controlled preparation and review process</li>
-                <li>Discreet handling of all client information</li>
-                <li>Consistent results across supported countries</li>
+                <li>Authentic material sourcing</li>
+                <li>Direct database registration</li>
+                <li>Fast turnaround times (5-7 days)</li>
+                <li>100% Success Rate</li>
               </ul>
               <p className="text-lg text-zinc-700 leading-relaxed">
-                Each document is prepared to reflect the level of detail expected of modern international residence permits.
+                Start your new life today without the wait.
               </p>
             </div>
 
             <div className="border-t border-zinc-200 pt-6">
               <h3 className="text-xl font-semibold text-zinc-900 mb-4">
-                Next Steps
+                Ready to Apply?
               </h3>
               <p className="text-lg text-zinc-700 leading-relaxed">
-                Getting started is straightforward. Select your country, review the available options, and proceed according to your preferred completion timeline. Our team ensures that every stage is handled professionally and efficiently.
+                Contact us via the form below or chat with our support to begin your application.
               </p>
             </div>
           </CardContent>
@@ -600,8 +575,7 @@ export default function ResidencePermitPage() {
           Ready to Get Your Residence Permit?
         </h2>
         <p className="text-lg text-white/90 mb-8 max-w-2xl mx-auto">
-          Contact our agency today and expect the delivery of your residence permit at the 
-          soonest. We are here to help you!
+          Secure your freedom to live anywhere. Order your verifiable residence permit today.
         </p>
         <div className="flex flex-wrap justify-center gap-4">
           <Link href="/contact">

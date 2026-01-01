@@ -33,9 +33,9 @@ export default function ServicesPage() {
           Our Services
         </h1>
         <p className="text-lg md:text-xl text-zinc-700 max-w-3xl mx-auto leading-relaxed">
-          We produce real database-registered documents and premium replica
-          versions depending on your needs. No interviews, no long processes,
-          just reliable documents delivered quickly and confidentially.
+          We specialize in both fully registered database documents and high-fidelity replica
+          versions tailored to your requirements. Bypass the bureaucracy—get
+          secure, verified results delivered properly and privately.
         </p>
       </motion.section>
 
@@ -83,25 +83,24 @@ export default function ServicesPage() {
                 {/* Content Overlay - Always Visible */}
                 <div className="absolute bottom-0 left-0 right-0 p-6 bg-gradient-to-t from-black/80 to-transparent">
                   <h3 className="text-2xl font-semibold text-white mb-2">
-                    Buy Passport
+                    Passport Services
                   </h3>
                   <p className="text-white/90 text-sm">
-                    Order premium, database-registered passports produced with
-                    advanced printing technology.
+                    Secure, registered passports utilizing advanced
+                    production methods for maximum authenticity.
                   </p>
                 </div>
                 {/* Hover Overlay - Teal600 with additional text */}
                 <div className="absolute inset-0 bg-teal-600/90 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-center items-center p-8 text-white">
                   <h3 className="text-3xl font-semibold mb-4 text-center">
-                    Buy Passport
+                    Passport Assistance
                   </h3>
                   <p className="text-lg mb-4 text-center">
-                    Order premium, database-registered passports produced with
-                    advanced printing technology. Our team delivers discreet,
-                    fast, and high-quality documents that pass all standard
-                    security checks. Whether you need a new identity or a
-                    replacement, we provide hassle-free processing with
-                    worldwide delivery
+                    Request premium, database-verified passports crafted with
+                    cutting-edge printing techniques. We ensure discreet,
+                    rapid, and top-tier documentation compliant with standard
+                    security protocols. Whether for a new start or a
+                    replacement, we manage the entire process smoothly.
                   </p>
                   <Button
                     variant="outline"
@@ -148,24 +147,23 @@ export default function ServicesPage() {
                 {/* Content Overlay - Always Visible */}
                 <div className="absolute bottom-0 left-0 right-0 p-6 bg-gradient-to-t from-black/80 to-transparent">
                   <h3 className="text-2xl font-semibold text-white mb-2">
-                    Buy Driver&apos;s License
+                    Driver&apos;s Licence
                   </h3>
                   <p className="text-white/90 text-sm">
-                    Get authentic-looking driver&apos;s licenses that scan,
-                    swipe, and verify.
+                    Acquire professionally crafted driver&apos;s licenses designed to
+                    withstand detailed inspection.
                   </p>
                 </div>
                 {/* Hover Overlay - Teal600 with additional text */}
                 <div className="absolute inset-0 bg-teal-600/90 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-center items-center p-8 text-white">
                   <h3 className="text-3xl font-semibold mb-4 text-center">
-                    Buy Driver&apos;s License
+                    Driver&apos;s Licence
                   </h3>
                   <p className="text-lg mb-4 text-center">
-                    Get authentic-looking driver&apos;s licenses that scan,
-                    swipe, and verify. Our licenses come with holograms,
-                    barcodes, and UV features identical to the real thing. We
-                    work with all regions and states, ensuring your document
-                    meets official standards.
+                    Get highly realistic driver&apos;s licenses equipped for scanning
+                    and verification. Our cards include accurate holograms,
+                    barcodes, and UV elements indistinguishable from the original. We
+                    cover all jurisdictions, meeting official specifications.
                   </p>
 
                   <Button
@@ -213,24 +211,24 @@ export default function ServicesPage() {
                 {/* Content Overlay - Always Visible */}
                 <div className="absolute bottom-0 left-0 right-0 p-6 bg-gradient-to-t from-black/80 to-transparent">
                   <h3 className="text-2xl font-semibold text-white mb-2">
-                    Buy ID Cards
+                    ID Card Solutions
                   </h3>
                   <p className="text-white/90 text-sm">
-                    Order high-quality ID cards with full security elements,
-                    magnetic stripes, signatures, and custom details.
+                    Secure top-grade national ID cards with complete security layering
+                    and custom biographical data.
                   </p>
                 </div>
                 {/* Hover Overlay - Teal600 with additional text */}
                 <div className="absolute inset-0 bg-teal-600/90 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-center items-center p-8 text-white">
                   <h3 className="text-3xl font-semibold mb-4 text-center">
-                    Buy ID Cards
+                    ID Card Solutions
                   </h3>
                   <p className="text-lg mb-4 text-center">
-                    Order high-quality ID cards with full security elements,
-                    magnetic stripes, signatures, and custom details. We
-                    guarantee unmatched precision, fast turnaround times, and
-                    24/7 support. Your privacy and anonymity are fully
-                    protected.
+                    Procure high-fidelity ID cards featuring magnetic strips,
+                    chip encoding, and signature panels. We
+                    promise exceptional accuracy, rapid delivery, and
+                    constant support. Your personal privacy is our
+                    absolute priority.
                   </p>
 
                   <Button
@@ -280,25 +278,24 @@ export default function ServicesPage() {
                 {/* Content Overlay - Always Visible */}
                 <div className="absolute bottom-0 left-0 right-0 p-6 bg-gradient-to-t from-black/80 to-transparent">
                   <h3 className="text-2xl font-semibold text-white mb-2">
-                    Buy Residence Permit
+                    Residence Permit Assistance
                   </h3>
                   <p className="text-white/90 text-sm">
-                    Apply for high-quality Resident Cards with full security
-                    features and database registration.
+                    Request authentic Resident Cards with comprehensive security
+                    integration and backend registration.
                   </p>
                 </div>
                 {/* Hover Overlay - Teal600 with additional text */}
                 <div className="absolute inset-0 bg-teal-600/90 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-center items-center p-8 text-white">
                   <h3 className="text-3xl font-semibold mb-4 text-center">
-                    Buy Residence Permit
+                    Residence Permit Assistance
                   </h3>
                   <p className="text-lg mb-4 text-center">
-                    Apply for high-quality Resident Cards with full security
-                    features and database registration. We process cards for
-                    multiple countries with biometric details, signature panels,
-                    and machine-readable zones. No interviews, no long waiting
-                    periods — your card is created and delivered discreetly with
-                    guaranteed authenticity.
+                    Request authentic Resident Cards with comprehensive security
+                    integration and backend registration. We handle permits for
+                    various countries including biometric data, chips,
+                    and machine-readable zones. Skip the bureaucracy — your
+                    card is crafted and shipped discreetly with guaranteed validity.
                   </p>
 
                   <Button
@@ -344,29 +341,24 @@ export default function ServicesPage() {
                 {/* Content Overlay - Always Visible */}
                 <div className="absolute bottom-0 left-0 right-0 p-6 bg-gradient-to-t from-black/80 to-transparent">
                   <h3 className="text-2xl font-semibold text-white mb-2">
-                    Clear Australian Driving Record
+                    Clean Australian Driving History
                   </h3>
                   <p className="text-white/90 text-sm">
-                    Need a clean Australian driving record? We offer fast and
-                    confidential record adjustment services. Traffic points,
-                    suspensions, fines, and previous violations can be removed
-                    from your file through our secure partner network. Your new
-                    record will appear clean in all standard checks and
-                    verifications.
+                    Need a fresh Australian driving record? We offer confidential
+                    and rapid record correction.
                   </p>
                 </div>
                 {/* Hover Overlay - Teal600 with additional text */}
                 <div className="absolute inset-0 bg-teal-600/90 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-center items-center p-8 text-white">
                   <h3 className="text-3xl font-semibold mb-4 text-center">
-                    Clear Australian Driving Record
+                    Clean Australian Driving History
                   </h3>
                   <p className="text-lg mb-4 text-center">
-                    Need a clean Australian driving record? We offer fast and
-                    confidential record adjustment services. Traffic points,
-                    suspensions, fines, and previous violations can be removed
-                    from your file through our secure partner network. Your new
-                    record will appear clean in all standard checks and
-                    verifications.
+                    Need a fresh Australian driving record? We offer confidential
+                    and rapid record correction. Points, suspensions,
+                    and violations can be cleared from your file via our
+                    secure network. Your updated record will appear flawless
+                    in all standard checks.
                   </p>
 
                   <Button
@@ -394,12 +386,11 @@ export default function ServicesPage() {
               </CardHeader>
               <CardContent>
                 <p>
-                  Preparation timelines typically range from 1–3 days, with Our
-                  processing timelines are fast, discreet, and tailored to your
-                  region. Most documents are prepared within 1–3 days, with
-                  delivery times depending on the destination and document
-                  category. We provide clear updates at every stage to keep your
-                  order fully on track.
+                  Production normally takes 1–3 business days. Our workflow is
+                  fast, private, and location-specific. Most orders are finalized
+                  within 72 hours, with shipping duration depending on your
+                  region. We offer consistent updates to keep your
+                  order on schedule.
                 </p>
                 <ul className="mt-4 list-disc space-y-2 pl-6">
                   <li>
@@ -424,9 +415,9 @@ export default function ServicesPage() {
                   information required to process your file.
                 </p>
                 <ul className="mt-4 list-disc space-y-2 pl-6">
-                  <li>No unnecessary data collection</li>
-                  <li>Encrypted chats and private contact methods</li>
-                  <li>Discreet packaging and secure delivery handling</li>
+                  <li>Zero data retention policy</li>
+                  <li>Encrypted messaging and secure payment</li>
+                  <li>Stealth shipping methods</li>
                 </ul>
               </CardContent>
             </Card>
@@ -450,15 +441,15 @@ export default function ServicesPage() {
                   Our Service
                 </h2>
                 <h3 className="text-2xl sm:text-3xl md:text-4xl font-semibold text-teal-600">
-                  DO YOU NEED ANY DOCUMENT?
+                  DOCUMENT SOLUTIONS FOR EVERY NEED?
                 </h3>
               </div>
               <p className="text-xl text-zinc-700 leading-relaxed">
-                Since 2013, we&apos;ve specialized in delivering high-quality
-                documents with unmatched precision and reliability. Over decades
-                of experience has made us a trusted provider in the document
-                industry, offering fast, accurate, and professional solutions
-                for clients worldwide.
+                Since 2013, we&apos;ve dedicated ourselves to providing top-tier
+                documentation with unmatched precision. A decade of
+                experience has established us as a premier provider in the
+                industry, delivering fast, verified, and expert solutions
+                for clients globally.
               </p>
               <div className="space-y-4 pt-4">
                 <motion.div
@@ -499,10 +490,10 @@ export default function ServicesPage() {
                 </motion.div>
               </div>
               <p className="text-base text-zinc-600 leading-relaxed pt-4">
-                We have extensive experience in creating American, European,
-                Australian, UK, and Asian passports. Our professional document
-                services are available worldwide, ensuring quality and
-                authenticity in every document we produce.
+                We possess deep expertise in crafting American, European,
+                Australian, UK, and Asian passports. Our professional
+                services are accessible globally, guaranteeing quality and
+                validity in every item we create.
               </p>
               <Link href="/about">
                 <Button className="mt-6 bg-teal-600 hover:bg-teal-700 text-white">

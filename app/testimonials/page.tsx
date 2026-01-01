@@ -201,9 +201,8 @@ function StarRating({ rating }: { rating: number }) {
       {[...Array(5)].map((_, i) => (
         <svg
           key={i}
-          className={`w-5 h-5 ${
-            i < rating ? "text-yellow-400 fill-current" : "text-zinc-300"
-          }`}
+          className={`w-5 h-5 ${i < rating ? "text-yellow-400 fill-current" : "text-zinc-300"
+            }`}
           viewBox="0 0 20 20"
           fill="currentColor"
         >
@@ -252,7 +251,7 @@ export default function TestimonialsPage() {
           Customer Testimonials
         </h1>
         <p className="text-lg md:text-xl text-zinc-700 max-w-3xl mx-auto">
-          Read what our satisfied customers have to say about their experience 
+          Read what our satisfied customers have to say about their experience
           with Top Docs Org. Over 10,000 clients trust us for their document needs.
         </p>
       </div>
@@ -295,7 +294,7 @@ export default function TestimonialsPage() {
           Ready to Join Our Satisfied Customers?
         </h2>
         <p className="text-zinc-700 mb-6">
-          Experience the quality and service that thousands of clients trust. 
+          Experience the quality and service that thousands of clients trust.
           Contact us today to get started.
         </p>
         <div className="flex flex-wrap justify-center gap-4">
